@@ -1,0 +1,99 @@
+<div id="busca">
+    <div id="formulario">
+        <form method="post" id="frmBusca" action="/pesquisa">
+            <table width="590" border="0">
+                <tr>
+                    <td width="411">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td width="27%">
+                                    <h3>Pesquisar por:</h3>
+                                </td>
+                                <td width="6%">
+                                    <input name="pesquisar_por" id="busca_cidade" type="radio" value="c" checked="checked" class="pesquisar" />
+                                </td>
+                                <td width="15%">
+                                    <label for="busca_cidade">
+                                        Cidade
+                                    </label>
+                                </td>
+                                <td width="6%">
+                                    <input name="pesquisar_por" id="busca_hotel" type="radio" value="h" class="pesquisar" />
+                                </td>
+                                <td width="46%">
+                                    <label for="busca_hotel">
+                                        Hotel
+                                    </label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="178" rowspan="6">
+                        <input type="hidden" name="np" id="np" value="1" />
+                        <input type="image" src="/images/bt_enviar.jpg" />
+                    </td>
+                </tr>
+                <tr>
+                    <td width="411">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td>
+                                    <input type="text" id="autocompletehotel" value="" name="autocompletehotel" class="texbox" style="display: none;" />
+                                    <input type="text" id="autocompletecidade" value="" name="autocompletecidade" class="texbox" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="411">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td>
+                                    <input type="text" value="" name="retiradaini" id="retiradaini" class="texbox2" defaultvalue="Data de Entrada" />
+                                </td>
+                                <td>
+                                    <input type="text" value="" name="retiradafim" id="retiradafim" class="texbox2" defaultvalue="Data de Saída"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="411">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td width="50%">
+                                    <h3>Quantidade</h3>
+                                </td>
+                                <td width="50%">
+                                    <h3>Apartamento</h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="411">
+                        <div id="seleciona_quantidade">
+                          <div class="item_1">
+                            <select id="quantidade_apartamentos_1" name="quantidade_apartamentos[]">
+                              <?php for ($i = 1; $i <= 20; $i++) {?> 
+                              <option value="<?php echo $i?>"><?php echo $i?></option>
+                              <?php } ?>
+                            </select>
+                            <select id="tipo_apartamento_1" name="tipo_apartamento[]">
+                              <?php for ($i = 0, $s = count($cat_aptos) -1; $i <= $s; $i++) {?> 
+                              <option value="<?php echo $cat_aptos[$i]->cap_id?>"><?php echo $cat_aptos[$i]->cap_nome ?></option>
+                              <?php } ?>
+                            </select>
+                          </div>
+                        </div>
+                                    <a href="" id="mais_ap">mais</a>
+                                    <a href="" id="menos_ap">menos</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>

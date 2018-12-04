@@ -1,0 +1,11 @@
+#rodape { position: absolute; bottom: 0; width: 100%; padding-bottom: 22px; background: url(/images/layum/rodape_bg.gif) bottom center no-repeat; }
+#rodape .cont { width: 878px;  margin: 0 auto; }
+#rodape ul { height: 30px; margin: -1px 0 25px; border-top: 1px solid #d1d1d1; border-bottom: 1px solid #d1d1d1; text-align: center; background: #ebebeb; }
+#rodape ul li { display: inline; padding: 0 7px; border-left: 1px solid #505050; line-height: 30px; font-size: 1.1em; }
+#rodape ul li.first { border: 0 none; }
+#rodape ul li a { color: #505050; text-decoration: none; }
+#rodape ul li a:hover { text-decoration: underline; }
+#rodape p { text-align: center; font-size: .9em; color: #535353; }
+#rodape p a { color: #535353; }
+#rodape div { margin-bottom: 30px; }
+#content { padding-bottom: 132px; }

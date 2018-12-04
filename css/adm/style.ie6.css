@@ -1,0 +1,575 @@
+img
+{
+	filter:expression(fixPNG(this));
+}
+
+.adm-Sheet, .adm-Sheet-body
+{
+	zoom:1;
+}
+
+.adm-Sheet-body
+{
+	position:static;
+}
+
+.adm-Sheet-tr, .adm-Sheet-tl, .adm-Sheet-br, .adm-Sheet-bl, .adm-Sheet-tc, .adm-Sheet-bc,.adm-Sheet-cr, .adm-Sheet-cl
+{
+	font-size: 1px;
+	background: none;
+}
+
+.adm-Sheet-tr, .adm-Sheet-tl, .adm-Sheet-br, .adm-Sheet-bl
+{
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-s.png',sizingMethod='scale')");
+}
+
+.adm-Sheet-tl
+{
+	clip: rect(auto 3px 3px auto);
+}
+
+.adm-Sheet-tr
+{
+	left: expression(this.parentNode.offsetWidth-6+'px');
+	clip: rect(auto auto 3px 3px);
+}
+
+.adm-Sheet-bl
+{
+	top: expression(this.parentNode.offsetHeight-6+'px');
+	clip: rect(3px 3px auto auto);
+}
+
+.adm-Sheet-br
+{
+	top: expression(this.parentNode.offsetHeight-6+'px');
+	left: expression(this.parentNode.offsetWidth-6+'px');
+	clip: rect(3px auto auto 3px);
+}
+
+.adm-Sheet-tc, .adm-Sheet-bc
+{
+	width: expression(this.parentNode.offsetWidth-6+'px');
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-h.png',sizingMethod='scale')");
+}
+
+.adm-Sheet-tc
+{
+	clip: rect(auto auto 3px auto);
+}
+
+.adm-Sheet-bc
+{
+	top: expression(this.parentNode.offsetHeight-6+'px');
+	clip: rect(3px auto auto auto);
+}
+
+.adm-Sheet-cr, .adm-Sheet-cl
+{
+	height: expression(this.parentNode.offsetHeight-6+'px');
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Sheet-v.png',sizingMethod='scale')");
+}
+
+.adm-Sheet-cr
+{
+	left: expression(this.parentNode.offsetWidth-6+'px');
+	clip: rect(auto auto auto 3px);
+}
+
+.adm-Sheet-cl
+{
+	clip: rect(auto 3px auto auto);
+}
+
+.adm-Sheet-cc
+{
+	font-size: 1px;
+	width: expression(this.parentNode.offsetWidth-6+'px');
+	height: expression(this.parentNode.offsetHeight-6+'px');
+	background-color: #D5DCDD;
+}
+#adm-page-background-simple-gradient, #adm-page-background-gradient, #adm-page-background-glare
+{
+	width:expression(document.body.clientWidth > 1000 ? "100%" : "1000px");
+}
+
+.adm-menu ul
+{
+	height: 1%;
+	width:1px;
+}
+
+.adm-menu, .adm-menu ul
+{
+	height: 1%;
+}
+
+.adm-menu li.adm-menuhover
+{
+	z-index: 10000;
+}
+
+.adm-menu .adm-menuhoverUL
+{
+	visibility: visible;
+}
+
+.adm-menu .adm-menuhoverUL
+{
+	top: 100%;
+	left: 0;
+}
+
+.adm-menu .adm-menuhoverUL .adm-menuhoverUL
+{
+	top: 0;
+	left: 100%;
+}
+
+.adm-menu ul a
+{
+	height: 1%;
+}
+
+.adm-menu li li
+{
+	float: left;
+	width: 100%;
+}
+
+.adm-menu .adm-menuhoverUL .adm-menuhoverUL
+{
+	top: 5px;
+	left: 100%;
+}
+
+.adm-menu, .adm-menu ul
+{
+	height: 1%;
+}
+
+.adm-menu li.adm-menuhover
+{
+	z-index: 10000;
+}
+
+.adm-menu .adm-menuhoverUL
+{
+	visibility: visible;
+}
+
+.adm-menu .adm-menuhoverUL
+{
+	top: 100%;
+	left: 0;
+}
+
+.adm-menu .adm-menuhoverUL .adm-menuhoverUL
+{
+	top: 0;
+	left: 100%;
+}
+
+.adm-menu ul a
+{
+	height: 1%;
+}
+
+.adm-menu li li
+{
+	float: left;
+	width: 100%;
+}
+
+.adm-nav
+{
+	zoom: 1;
+}
+
+.adm-nav .l, .adm-nav .r
+{
+	font-size: 1px;
+	background: none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/nav.png',sizingMethod='crop')");
+}
+
+.adm-nav .l
+{
+	width: expression(this.parentNode.offsetWidth-0+'px');
+}
+
+.adm-nav .r
+{
+	left: expression(this.parentNode.offsetWidth-992+'px');
+	clip: rect(auto auto auto 992px);
+}
+
+.adm-menu a
+{
+	float:left;
+}
+
+.adm-menu a:hover
+{
+	visibility:visible;
+}
+
+.adm-menu a .r, .adm-menu a .l
+{
+	font-size:1px;
+	background: none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/MenuItem.png',sizingMethod='crop')");
+}
+
+.adm-menu a .r
+{
+	left: expression(this.parentNode.offsetWidth-412+'px');
+	clip: rect(auto auto auto 406px);
+}
+
+.adm-menu a .l
+{
+	width: expression(this.parentNode.offsetWidth-6+'px');
+}
+
+.adm-menuhover .adm-menuhoverA .t
+{
+	color: #EDF4F8;
+}
+
+.adm-menuhover .adm-menuhoverA .l, .adm-menuhover .adm-menuhoverA .r
+{
+	top: -30px;
+}
+
+.adm-menu ul a
+{
+	color: #7DCBE8 !important;
+}
+
+.adm-menu ul a:hover {
+	color: #FFFFFF !important;
+}	
+
+.adm-menu ul .adm-menuhover .adm-menuhoverA
+{
+	color: #FFFFFF !important;
+	border-color: #B8C4C6;
+	background-position: 0 -26px;
+}
+
+.adm-nav .adm-menu ul a:hover span, .adm-nav .adm-menu ul a:hover span span
+{
+	color: #FFFFFF !important;
+}	
+
+.adm-nav .adm-menu ul .adm-menuhover .adm-menuhoverA span, .adm-nav .adm-menu ul .adm-menuhover .adm-menuhoverA span span
+{
+	color: #FFFFFF !important;
+}
+
+.adm-Block, .adm-Block-body
+{
+	zoom:1;
+}
+
+.adm-Block-body
+{
+	position:static;
+}
+
+.adm-BlockHeader, .adm-BlockHeader
+{
+	font-size: 1px;
+}
+.adm-BlockHeader .l, .adm-BlockHeader .r
+{
+	background: none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockHeader.png',sizingMethod='crop')");
+}
+
+.adm-BlockHeader .r
+{
+	left: expression(this.parentNode.offsetWidth-996+'px');
+	clip: rect(auto auto auto 989px);
+}
+
+.adm-BlockHeader .l
+{
+	width: expression(this.parentNode.offsetWidth-7+'px');
+}
+
+.adm-header-tag-icon
+{
+	background: none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockHeaderIcon.png',sizingMethod='crop')");
+}
+
+.adm-BlockContent, .adm-BlockContent-body
+{
+	zoom:1;
+}
+
+.adm-BlockContent-body
+{
+	position:static;
+}
+
+.adm-BlockContent-tr, .adm-BlockContent-tl, .adm-BlockContent-br, .adm-BlockContent-bl, .adm-BlockContent-tc, .adm-BlockContent-bc,.adm-BlockContent-cr, .adm-BlockContent-cl
+{
+	font-size: 1px;
+	background: none;
+}
+
+.adm-BlockContent-tr, .adm-BlockContent-tl, .adm-BlockContent-br, .adm-BlockContent-bl
+{
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockContent-s.png',sizingMethod='scale')");
+}
+
+.adm-BlockContent-tl
+{
+	clip: rect(auto 7px 7px auto);
+}
+
+.adm-BlockContent-tr
+{
+	left: expression(this.parentNode.offsetWidth-14+'px');
+	clip: rect(auto auto 7px 7px);
+}
+
+.adm-BlockContent-bl
+{
+	top: expression(this.parentNode.offsetHeight-14+'px');
+	clip: rect(7px 7px auto auto);
+}
+
+.adm-BlockContent-br
+{
+	top: expression(this.parentNode.offsetHeight-14+'px');
+	left: expression(this.parentNode.offsetWidth-14+'px');
+	clip: rect(7px auto auto 7px);
+}
+
+.adm-BlockContent-tc, .adm-BlockContent-bc
+{
+	width: expression(this.parentNode.offsetWidth-14+'px');
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockContent-h.png',sizingMethod='scale')");
+}
+
+.adm-BlockContent-tc
+{
+	clip: rect(auto auto 7px auto);
+}
+
+.adm-BlockContent-bc
+{
+	top: expression(this.parentNode.offsetHeight-14+'px');
+	clip: rect(7px auto auto auto);
+}
+
+.adm-BlockContent-cr, .adm-BlockContent-cl
+{
+	height: expression(this.parentNode.offsetHeight-14+'px');
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockContent-v.png',sizingMethod='scale')");
+}
+
+.adm-BlockContent-cr
+{
+	left: expression(this.parentNode.offsetWidth-14+'px');
+	clip: rect(auto auto auto 7px);
+}
+
+.adm-BlockContent-cl
+{
+	clip: rect(auto 7px auto auto);
+}
+
+.adm-BlockContent-cc
+{
+	font-size: 1px;
+	width: expression(this.parentNode.offsetWidth-14+'px');
+	height: expression(this.parentNode.offsetHeight-14+'px');
+	background-color: #D5DCDD;
+}
+
+.adm-BlockContent-body ul li
+{
+	height:1%;
+	background:none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/BlockContentBullets.png',sizingMethod='crop')");
+}
+
+.adm-Post, .adm-Post-body
+{
+	zoom:1;
+}
+
+.adm-Post-body
+{
+	position:static;
+}
+
+.adm-Post-tr, .adm-Post-tl, .adm-Post-br, .adm-Post-bl, .adm-Post-tc, .adm-Post-bc,.adm-Post-cr, .adm-Post-cl
+{
+	font-size: 1px;
+	background: none;
+}
+
+.adm-Post-tr, .adm-Post-tl, .adm-Post-br, .adm-Post-bl
+{
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Post-s.png',sizingMethod='scale')");
+}
+
+.adm-Post-tl
+{
+	clip: rect(auto 7px 7px auto);
+}
+
+.adm-Post-tr
+{
+	left: expression(this.parentNode.offsetWidth-14+'px');
+	clip: rect(auto auto 7px 7px);
+}
+
+.adm-Post-bl
+{
+	top: expression(this.parentNode.offsetHeight-14+'px');
+	clip: rect(7px 7px auto auto);
+}
+
+.adm-Post-br
+{
+	top: expression(this.parentNode.offsetHeight-14+'px');
+	left: expression(this.parentNode.offsetWidth-14+'px');
+	clip: rect(7px auto auto 7px);
+}
+
+.adm-Post-tc, .adm-Post-bc
+{
+	width: expression(this.parentNode.offsetWidth-14+'px');
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Post-h.png',sizingMethod='scale')");
+}
+
+.adm-Post-tc
+{
+	clip: rect(auto auto 7px auto);
+}
+
+.adm-Post-bc
+{
+	top: expression(this.parentNode.offsetHeight-14+'px');
+	clip: rect(7px auto auto auto);
+}
+
+.adm-Post-cr, .adm-Post-cl
+{
+	height: expression(this.parentNode.offsetHeight-14+'px');
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Post-v.png',sizingMethod='scale')");
+}
+
+.adm-Post-cr
+{
+	left: expression(this.parentNode.offsetWidth-14+'px');
+	clip: rect(auto auto auto 7px);
+}
+
+.adm-Post-cl
+{
+	clip: rect(auto 7px auto auto);
+}
+
+.adm-Post-cc
+{
+	font-size: 1px;
+	width: expression(this.parentNode.offsetWidth-14+'px');
+	height: expression(this.parentNode.offsetHeight-14+'px');
+	background-color: #FFFFFF;
+}
+
+h1
+{
+  margin: 0.67em 0;
+}
+
+h2
+{
+  margin: 0.8em 0;
+}
+
+h3
+{
+  margin: 1em 0;
+}
+
+h4
+{
+  margin: 1.25em 0;
+}
+
+h5
+{
+  margin: 1.67em 0;
+}
+
+h6
+{
+  margin: 2.33em 0;
+}
+
+.adm-Post ul li, .adm-Post ol ul li
+{
+	height:1%;
+	background:none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/PostBullets.png',sizingMethod='crop')");
+}
+
+.adm-Post ul ol li
+{
+	background:none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="");
+}
+
+blockquote,
+.adm-PostContent blockquote
+{
+	height:1%;
+	background-image: none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/PostQuote.png',sizingMethod='crop')");
+}
+
+.adm-button-wrapper, .adm-button-wrapper .l, .adm-button-wrapper .r
+{
+	font-size: 1px;
+}
+
+.adm-button-wrapper .adm-button
+{
+	float:left;
+}
+
+.adm-button-wrapper .l, .adm-button-wrapper .r
+{
+	background: none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Button.png',sizingMethod='crop')");
+}
+
+.adm-button-wrapper .r
+{
+	left: expression(this.parentNode.offsetWidth-403+'px');
+	clip: rect(auto auto auto 398px);
+}
+
+.adm-button-wrapper .l
+{
+	width: expression(this.parentNode.offsetWidth-5+'px');
+}
+
+.adm-Footer .adm-Footer-background
+{
+	top: expression(this.parentNode.offsetHeight-150+'px');
+	background: none;
+	behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + GetStyleUrl()+"images/Footer.png',sizingMethod='crop')");
+	zoom: 1;
+	font-size:1px;
+}

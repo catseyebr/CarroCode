@@ -1,0 +1,512 @@
+div#geral_locadoras:after,  div#promocoes_locadoras:after,
+        div#locadoras_promocoes:after, div#container_pagamento:after, div#titulo_protecao:after, .container_lojas:after, .lojas_locadoras:after {
+        content:".";
+        display:block;
+        clear:both;
+        visibility:hidden;
+        height:0;
+        overflow:hidden;
+}
+/* ------------------------------------ INÃCIO HOME -------------------------------- */
+div#geral_locadoras{
+	width: 860px;
+    display: block;
+    margin-top: 20px;
+}
+ div#topo_locadora{
+	width: 860px;
+	height: 50px;
+	display: block;
+	background: #006abc;
+	border: 1px solid #006abc;
+}
+div#topo_locadora h2{
+	height: 50px;
+    display: block;
+    background: url(http://www.carroaluguel.com/img/medium_locadora_245.jpg) no-repeat;
+    text-indent: -9000px;
+    overflow: hidden;
+}
+div#promocoes_locadoras{
+	width: 200px;
+	height: 30px;
+	display: block;
+	padding-left: 35px;
+	margin-top: 12px;
+	float: left;
+}
+    div#promocoes_locadoras strong{
+        font-size: 18px;
+        color: #616161;
+        letter-spacing: -1px;
+    }
+    div#promocoes_locadoras a{
+        width: 200px;
+        height: 38px;
+        display: block;
+        float: right;
+    }
+div#promocoes_link{
+	width: 500px;
+	height: 30px;
+	display: block;
+	float: right;
+	margin-top: 15px;
+	text-align: right;
+}
+    div#promocoes_link a{
+        font-size: 14px;
+        color: #616161;
+        font-weight: bold;
+    }
+    div#promocoes_link a:hover{
+        color: #000000;
+    }
+div#locadoras_promocoes{
+	width: 860px;
+	height: 167px;
+	display: block;
+	background: #d8e4ed;
+	clear: both;
+	border-bottom: dashed 3px #e6e6e6;
+	border-top: dashed 3px #e6e6e6;
+}
+.box_locadoras{
+	width: 188px;
+	height: 133px;
+	display: block;
+	float: left;
+	background: #bad1e3;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+    .box_locadoras span{
+        font-size: 14px;
+        color: #626262;
+        display: block;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .box_locadoras p{
+        width: 160px;
+        height: 40px;
+        font-size: 12px;
+        color: #747474;
+        display: block;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .box_locadoras strong{
+        display: block;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .box_locadoras a.bt_reserva{
+        width: 173px;
+        height: 22px;
+        display: block;
+        background:  #71a7d1;
+        margin-top: 11px;
+        padding: 3px 0 0 15px;
+        font-size: 15px;
+        color: #de0000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .box_locadoras a.bt_reserva:hover{
+        background: #006abc;
+        color: #000000;
+        text-decoration: underline;
+    }
+.first_locadora{
+	margin-left: 0;
+}
+div#container_promo{
+	width: 796px;
+	display: block;
+	padding-left: 35px;
+}
+div#container_pagamento{
+	width: 860px;
+	display: block;
+	margin-top: 15px;
+}
+div#banner_locadora{
+	width: 476px;
+	height: 90px;
+	display: block;
+	float: left;
+	background: #eaeaea;
+}
+    div#banner_locadora p{
+        width: 420px;
+        display: block;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    div#banner_locadora p strong{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 5px;
+    }
+div#pagamento_locadoras{
+	width: 372px;
+	height: 90px;
+	display: block;
+	float: right;
+	background: #eaeaea;
+}
+div#pagamento_locadoras strong{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #3d3d3d;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+div#pagamento_locadoras ul{
+	display: block;
+	padding-top: 8px;
+	margin-left: 15px;
+}
+div#pagamento_locadoras ul li{
+	display: inline;
+	margin-left: 5px;
+	float: left;
+}
+div#pagamento_locadoras ul li.first{
+	margin-left: 0;
+}
+div#pagamento_locadoras p{
+	display: block;
+	padding-top: 5px;
+	float: left;
+	padding-left: 15px;
+	clear:both;
+}
+div#container_menu_locadora{
+	width: 860px;
+	height: 43px;
+	display: block;
+	background: #006abc url(http://www.carroaluguel.com/images/bg_menu_locadora.gif) top left repeat-x;
+	margin-top: 10px;
+}
+div#menu_locadora{
+	width: 646px;
+	height: 43px;
+	display: block;
+	margin: 0 auto;
+}
+div#menu_locadora a.tar{
+	width: 96px;
+	height: 28px;
+	display: block;
+	float: left;
+	background: #bad1e3;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding: 15px 0 0 56px;
+}
+div#menu_locadora a.tar:hover, div#menu_locadora a.desc:hover, div#menu_locadora a.seg:hover, div#menu_locadora a.disp:hover {
+	background: #bad1e3;
+	text-decoration: underline;
+}
+div#menu_locadora a.desc{
+	width: 143px;
+	height: 28px;
+	display: block;
+	float: left;
+	background: #bad1e3;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding: 15px 0 0 11px;
+	margin-left: 6px;
+}
+div#menu_locadora a.seg{
+	width: 133px;
+	height: 28px;
+	display: block;
+	float: left;
+	background: #bad1e3;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding: 15px 0 0 23px;
+	margin-left: 6px;
+}
+div#menu_locadora a.disp{
+	width: 126px;
+	height: 28px;
+	display: block;
+	float: left;
+	background: #bad1e3;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding: 15px 0 0 27px;
+	margin-left: 6px;
+}
+        div#tarifas_locadoras{
+                width: 860px;
+                display: block;
+                margin-top: 20px;
+        }
+                div#tarifas_locadoras h3{
+                        width: 834px;
+                        height: 25px;
+                        display: block;
+                        background: #006abc;
+                        font-size: 16px;
+                        color: #f5f5f5;
+                        font-weight: bold;
+                        padding: 5px 0 0 26px;
+                }
+        div#tabela_locadora{
+                width: 860px;
+                display: block;
+                margin-top: 15px;
+        }
+                div#tabela_locadora table.titulos_desc{
+                        color: #393939;
+                        font-weight: bold;
+                }
+                        div#tabela_locadora table.tabela_claro{
+                                background: #e6f1fa;
+                        }
+                                div#tabela_locadora table.tabela_escura{
+                                        background: #f5fbff;
+                                }
+        div#legenda{
+                width: 860px;
+                display: block;
+                margin-top: 10px;
+        }
+                div#legenda h3{
+                        width: 860px;
+                        height: 25px;
+                        display: block;
+                        border-bottom: solid 1px #dfdfdf;
+                        font-size: 16px;
+                        color:#393939;
+                }
+                        div#icones_legenda{
+                                width: 860px;
+                                display: block;
+                                background: #ededed;
+                                margin-top: 10px;
+                        }
+                                div#icones_legenda table.icons_legenda{
+                                        margin: 0 auto;
+                                }
+        div#importante_locadoras{
+                width: 860px;
+                display: block;
+                margin-top: 20px;
+        }
+                div#importante_locadoras h3{
+                        width: 860px;
+                        height: 25px;
+                        display: block;
+                        border-bottom: solid 1px #dfdfdf;
+                        font-size: 16px;
+                        color:#393939;
+                }
+                        div#importante_locadoras p{
+                                display: block;
+                                margin-top: 10px;
+                                width: 840px;
+                                background: #c9c9c9;
+                                padding: 20px 0 20px 20px;
+                        }
+        div#titulo_protecao{
+                width: 860px;
+                height: 30px;
+                display: block;
+                background: #006abc;
+                margin-top: 20px;
+        }
+                div#titulo_protecao h3{
+                        width: 400px;
+                        height: 30px;
+                        display: block;
+                        float: left;
+                        padding: 5px 0 0 26px;
+                        font-size: 16px;
+                        color: #f5f5f5;
+                }
+                        div#titulo_protecao a.volta{
+                                width: 110px;
+                                display: block;
+                                font-size: 12px;
+                                color: #000000;
+                                font-weight: bold;
+                                float: right;
+                                margin-top: 7px;
+                        }
+                                div#titulo_protecao a:hover{
+                                        color: #636363;
+                                }
+        .container_protecoes{
+                width: 860px;
+                display: block;
+                margin-top: 15px;
+        }
+                .container_protecoes h4{
+                        font-size: 14px;
+                        color: #003d6b;
+                        display: block;
+                        margin-bottom: 10px;
+                        height: 20px;
+                        width: 800px;
+                        border-bottom: solid 1px #dfdfdf;
+                        margin-left: 26px;
+                }
+                        .container_protecoes p{
+                                width: 800px;
+                                display: block;
+                                margin-left: 26px;
+                                margin-top: 10px;
+                                color: #393939;
+                        }
+                        .container_protecoes p strong{
+                                display: block;
+                        }
+        div#titulo_lojas{
+                width: 860px;
+                height: 30px;
+                display: block;
+                background: #006abc;
+                margin-top: 20px;
+        }
+                div#titulo_lojas h3{
+                        width: 600px;
+                        height: 30px;
+                        display: block;
+                        float: left;
+                        padding: 5px 0 0 26px;
+                        font-size: 16px;
+                        color: #f5f5f5;
+                }
+                        div#titulo_lojas a.volta{
+                                width: 110px;
+                                display: block;
+                                font-size: 12px;
+                                color: #000000;
+                                font-weight: bold;
+                                float: right;
+                                margin-top: 7px;
+                        }
+                                div#titulo_lojas a:hover{
+                                        color: #636363;
+                                }
+        div#busca_lojas{
+                width: 800px;
+                height: 42px;
+                display: block;
+                margin-left: 26px;
+                margin-top: 15px;
+                background: #f3f3f3;
+        }
+                div#busca_lojas table.tabela_busca{
+                        font-size: 14px;
+                        color: #383838;
+                        font-weight: bold;
+                        margin-left: 26px;
+                        margin-top: 5px;
+                }
+                .campo_locadora{
+                    border: 1px solid #dbdbdb;
+                    background-color: #e5e5e5;
+                    font-family: Arial, Verdana, Helvetica, sans-serif;  
+                    color:#3d3d3d;
+                    font-size: 12px;
+                    width: 235px;
+                    padding: 5px;
+		}
+                        .lupa_left{
+                                margin-right: 15px;
+                        }
+       .container_lojas{
+                width: 800px;
+                margin-left: 26px;
+                display: block;
+                border-bottom: solid 1px #dfdfdf;
+        }
+        .lojas_locadoras{
+                width: 646px;
+                display: block;
+                margin-top: 15px;
+                float: left;
+                padding-bottom: 15px;
+        }
+                .icones_lojas{
+                        float: left;
+                }
+                        .lojas_locadoras p{
+                                width: 580px;
+                                display: block;
+                                float: left;
+                                
+                        }
+                                .lojas_locadoras p strong a {
+                                        font-size: 14px;
+                                        color: #690005;
+                                        display: block;
+                                        margin-bottom: 5px;
+										text-decoration:none;
+                                }
+                                        .lojas_locadoras p span{
+                                                font-weight: bold;
+                                                display: block;
+                                                margin-top: 5px;
+                                                margin-bottom: 5px;
+                                        }
+        .reserva_locadora{
+                width: 142px;
+                height: 58px;
+                display: block;
+                float: right;
+                margin-top: 45px;
+        }
+        div#titulo_somos{
+                width: 860px;
+                height: 30px;
+                display: block;
+                background: #006abc;
+                margin-top: 20px;
+        }
+                div#titulo_somos h3{
+                        width: 500px;
+                        height: 30px;
+                        display: block;
+                        float: left;
+                        padding: 5px 0 0 26px;
+                        font-size: 16px;
+                        color: #f5f5f5;
+                }
+                        div#titulo_somos a.volta{
+                                width: 110px;
+                                display: block;
+                                font-size: 12px;
+                                color: #000000;
+                                font-weight: bold;
+                                float: right;
+                                margin-top: 7px;
+                        }
+                                div#titulo_somos a.volta:hover{
+                                        color: #636363;
+                                }
+        div#conteudo_somos{
+                width: 800px;
+                display: block;
+                margin-left: 26px;
+                float: left;
+                margin-top: 15px;
+        }
+                div#conteudo_somos p{
+                        color: #393939;
+                        margin-bottom: 10px;
+                }

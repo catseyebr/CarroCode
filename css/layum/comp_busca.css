@@ -1,0 +1,95 @@
+#busca { position: relative; margin-top: 70px; width: 100%; }
+#busca h3 { position: absolute; top: -8px; text-align: center; font-size: 1.4em; z-index: 1; }
+#busca .active h3 { top: -20px; }
+#busca h3 a { display: block; text-decoration: none; text-transform: uppercase; color: #FFFFFF; padding-top: 4px; height: 23px; }
+#busca .active h3 a { padding-top: 10px; height: 29px; } 
+#busca ul li { float: left; }
+html /**/>/**/ body #busca ul li { float: none; }
+#busca ul li .busca-esq,
+#busca ul li .busca-dir,
+#busca ul li .form-cont { display: none; }
+#busca ul li.active .busca-esq,
+#busca ul li.active .busca-dir,
+#busca ul li.active .form-cont { display: block; }
+#busca ul li .form-cont { padding-top: 16px; }
+#busca ul li li { display: block; padding: 0; }
+#busca ul li.active { display: block; }
+#busca ul li form { height: 100%; background: bottom left repeat-x; position: relative; z-index: 2; }
+#busca ul li form fieldset { padding: 0 3px; background: top left repeat-x; }
+
+#busca .busca-esq,
+#busca .busca-dir { position: absolute; width: 10px; height: 100%; z-index: 1000; }
+#busca .busca-esq { background: bottom left no-repeat; left: -8px; }
+#busca .busca-dir { background: bottom right no-repeat; right: -8px; }
+#busca .busca-esq .busca-esq-in { height: 100%; background: top left no-repeat; }
+#busca .busca-dir .busca-dir-in { height: 100%; background: top right no-repeat; }
+
+
+#busca ul li#busca-carro .busca-esq { background-image: url(/images/layum/busca_carro_bot_left.gif); }
+#busca ul li#busca-carro .busca-dir { background-image: url(/images/layum/busca_carro_bot_right.gif); }
+#busca ul li#busca-carro .busca-esq .busca-esq-in { background-image: url(/images/layum/busca_carro_top_left.gif); }
+#busca ul li#busca-carro .busca-dir .busca-dir-in { background-image: url(/images/layum/busca_carro_top_right.gif); }
+
+#busca ul li#busca-carro h3 { left: 8px; }
+#busca ul li#busca-carro h3 a { width: 203px; background: url(/images/layum/busca_carro_aba.gif) top left no-repeat; } 
+#busca ul li#busca-carro .form-cont { height: 246px;  } /* height de cima - 16 */
+#busca ul li#busca-carro form { font-size: 1.1em; background-image: url(/images/layum/busca_carro_bot_bg.gif); }
+#busca ul li#busca-carro form fieldset { background-image: url(/images/layum/busca_carro_top_bg.gif); }
+
+#busca ul li#busca-carro form fieldset input,
+#busca ul li#busca-carro form fieldset select { height: 20px; font-size: 1.0em; }
+#busca ul li#busca-carro form fieldset label { display: block; margin-bottom: 6px; font-weight: bold; }
+#busca ul li#busca-carro form fieldset label.radio { margin: 0 47px 0 -3px; }
+#busca ul li#busca-carro form fieldset label.radio.last { margin-right: 0; }
+#busca ul li#busca-carro form fieldset .opcoes { float: left; width: 499px; padding: 4px 0 0 13px; }
+#busca ul li#busca-carro form fieldset .opcoes li { margin-top: 18px; }
+#busca ul li#busca-carro form fieldset .opcoes ul { padding: 0; }
+#busca ul li#busca-carro form fieldset .opcoes li.maior { float: left; width: 226px; margin-right: 17px; }
+#busca ul li#busca-carro form fieldset .opcoes li.devolucao { float: left; }
+#busca ul li#busca-carro form fieldset .opcoes li.menor { float: left; width: 108px; margin-right: 13px; }
+#busca ul li#busca-carro form fieldset ul li ul { width: auto; padding: 0; }
+#busca ul li#busca-carro form fieldset ul li.maior input { width: 224px; border: 1px solid #d7d7d7; }
+#busca ul li#busca-carro form fieldset ul li.maior select { width: 224px; border: 1px solid #d7d7d7; }
+#busca ul li#busca-carro form fieldset ul li.menor input { width: 106px; border: 1px solid #d7d7d7; }
+#busca ul li#busca-carro form fieldset ul li.menor select { width: 106px; border: 1px solid #d7d7d7; }
+#busca ul li#busca-carro form fieldset ul li.devolucao li { float: left; margin: 0; }
+#busca ul li#busca-carro form fieldset ul li label.radio input { vertical-align: middle; }
+#busca ul li#busca-carro form fieldset .forma { float: left; width: 359px; padding-top: 22px; }
+#busca ul li#busca-carro form fieldset .forma ul li { float: left; }
+#busca ul li#busca-carro form fieldset .forma ul li label { margin-bottom: 0; }
+#busca ul li#busca-carro form fieldset .forma div { clear: both; }
+#busca ul li#busca-carro form fieldset .forma div p { display: none; }
+#busca ul li#busca-carro form fieldset .forma div ul li { display: none; width: 50px; height: 25px; margin: 12px 10px 0 0;  }
+#busca ul li#busca-carro form fieldset .forma div.active ul li { display: block; }
+#busca ul li#busca-carro form fieldset .forma div img { width: 50px; height: 25px; }
+#busca ul li#busca-carro button { width: 316px; height: 47px; border: 0; margin-top: 9px; background: url(/images/layum/busca_carro_btn.gif) top left no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+
+html /**/>/**/ body #busca ul li#busca-carro form fieldset label.radio { margin-left: 0; }
+* html #busca ul li#busca-carro form fieldset .forma div { margin-top: -10px; }
+* html #busca ul li#busca-carro form fieldset .forma div ul { padding-bottom: 10px; }
+
+
+#busca ul li#busca-hotel .busca-esq { background-image: url(/images/layum/busca_hotel_bot_left.gif); }
+#busca ul li#busca-hotel .busca-dir { background-image: url(/images/layum/busca_hotel_bot_right.gif); }
+#busca ul li#busca-hotel .busca-esq .busca-esq-in { background-image: url(/images/layum/busca_hotel_top_left.gif); }
+#busca ul li#busca-hotel .busca-dir .busca-dir-in { background-image: url(/images/layum/busca_hotel_top_right.gif); }
+
+#busca ul li#busca-hotel .form-cont { height: 246px;  } /* height de cima - 16 */
+#busca ul li#busca-hotel h3 { left: 219px; }
+#busca ul li#busca-hotel h3 a { width: 130px; background: url(/images/layum/busca_hotel_aba.gif) top left no-repeat; }
+#busca ul li#busca-hotel form { font-size: 1.1em; background-image: url(/images/layum/busca_hotel_bot_bg.gif); }
+#busca ul li#busca-hotel form fieldset { background-image: url(/images/layum/busca_hotel_top_bg.gif); }
+#busca ul li#busca-hotel form fieldset p { width: 874px; height: 119px; padding-top: 120px; font-size: 1.4em; text-transform: uppercase; text-align: center; }
+
+
+#busca ul li#busca-passagem .busca-esq { background-image: url(/images/layum/busca_passagem_bot_left.gif); }
+#busca ul li#busca-passagem .busca-dir { background-image: url(/images/layum/busca_passagem_bot_right.gif); }
+#busca ul li#busca-passagem .busca-esq .busca-esq-in { background-image: url(/images/layum/busca_passagem_top_left.gif); }
+#busca ul li#busca-passagem .busca-dir .busca-dir-in { background-image: url(/images/layum/busca_passagem_top_right.gif); }
+
+#busca ul li#busca-passagem h3 { left: 357px; }
+#busca ul li#busca-passagem h3 a { width: 149px; background: url(/images/layum/busca_passagem_aba.gif) top left no-repeat; } 
+#busca ul li#busca-passagem .form-cont { height: 246px;  } /* height de cima - 16 */
+#busca ul li#busca-passagem form { font-size: 1.1em; background-image: url(/images/layum/busca_passagem_bot_bg.gif); }
+#busca ul li#busca-passagem form fieldset { background-image: url(/images/layum/busca_passagem_top_bg.gif); }
+#busca ul li#busca-passagem form fieldset p { width: 874px; height: 119px; padding-top: 120px; font-size: 1.4em; text-transform: uppercase; text-align: center; }

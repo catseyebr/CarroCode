@@ -1,0 +1,12 @@
+.novo_condutor,
+#inserir_condutor,
+#cancelar_condutor  { background:none repeat scroll 0 0 #444444; color:#FFFFFF; display:inline-block; font-size:18px; height:28px; padding-top:2px; text-decoration:none; width:115px; cursor: pointer; }
+#novo_condutor .dados li { float: left; margin-right: 20px; }
+
+/* contendo float */
+.contemfloat:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.contemfloat { display: inline-block; }
+/* Hides from IE-mac \*/
+* .contemfloat { height: 1%; }
+.contemfloat { display: block; }
+/* End hide from IE-mac */

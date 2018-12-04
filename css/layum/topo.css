@@ -1,0 +1,36 @@
+#topo { height: 144px; background-color: #efefef; }
+#topo h2 a { float: left; width: 232px; height: 99px; margin: 17px 0 0 -1px; background: url(/images/layum/logo_home.gif) top left no-repeat; text-indent: -999em; overflow: hidden; }
+
+#topo #usuario { float: right; width: 307px; padding-top: 44px; font-size: 1.1em; font-family: Arial, Sans-Serif; }
+#topo #usuario a { color: #000000; }
+#topo #usuario form { margin-top: 23px; }
+#topo #usuario form li { float: left; }
+#topo #usuario form label { display: none; }
+#topo #usuario form input { width: 100px; height: 21px; border: 1px solid #479da7; padding-left: 6px; font-size: 1em; background: url(/images/layum/usuario_bg_input.gif) top left repeat-x; }
+
+#topo #usuario .mensagem { float: left; }
+
+#topo #usuario #usuario-contato { float: right; margin-top: -5px; }
+#topo #usuario #usuario-contato li { float: left; }
+#topo #usuario #usuario-contato li a { float: left; height: 19px; line-height: 23px; font-size: 1.1em; font-weight: bold; text-decoration: none; color: #1e45a0; background: top right no-repeat; }
+#topo #usuario #usuario-contato .sac a { background-image: url(/images/layum/usuario_sac.gif); padding-right: 15px; margin-right: 13px; }
+#topo #usuario #usuario-contato .chat a { background-image: url(/images/layum/usuario_chat.gif); padding-right: 22px; margin-right: 34px; }
+#topo #usuario form { margin-top: 5px; width: 100%; }
+#topo #usuario form label { display: none; }
+#topo #usuario form input { width: 100px; height: 21px; border: 1px solid #479da7; padding-left: 6px; font-size: 1em; background: url(/images/layum/usuario_bg_input.gif) top left repeat-x; }
+#topo #usuario .mensagem { float: left; }
+#topo #usuario #usuario-contato { float: right; margin-top: -5px; }
+#topo #usuario #usuario-contato li { float: left; }
+#topo #usuario #usuario-contato li a { display: block; height: 19px; line-height: 23px; font-size: 1.1em; font-weight: bold; text-decoration: none; color: #1e45a0; background: top right no-repeat; }
+#topo #usuario #usuario-contato .sac a { background-image: url(/images/layum/usuario_sac.gif); padding-right: 15px; margin-right: 13px; }
+#topo #usuario #usuario-contato .chat a { background-image: url(/images/layum/usuario_chat.gif); padding-right: 22px; margin-right: 34px; }
+#topo #usuario #login { margin-right: 12px; }
+#topo #usuario #usuario-bt_ok { float: right; width: 42px; height: 33px; margin: -5px 30px 0 0; background: url(/images/layum/usuario_bt_ok.gif) top left no-repeat; }
+#topo #usuario #usuario-bt_ok button { width: 32px; height: 23px; margin: 5px 0 0 5px; border: none; background: none; cursor: pointer; text-indent: -999em; overflow: hidden; }
+
+/* duplicação de margem no IE6 */
+* html #topo #usuario #usuario-contato .sac a { margin-right: 6.5px; }
+* html #topo #usuario #usuario-contato .chat a { margin-right: 17px; }
+* html #topo #usuario #usuario-bt_ok { margin-right: 15px; }
+/* elemento superior com float. IE6, IE7, (IE8 e webkit) entendem cada um de uma maneira */
+html /**/>/**/ body #topo #usuario form { margin-top: 23px; }

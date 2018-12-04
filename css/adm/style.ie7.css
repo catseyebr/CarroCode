@@ -1,0 +1,164 @@
+.adm-Sheet-tl
+{
+	clip: rect(auto 3px 3px auto);
+}
+
+.adm-Sheet-tr
+{
+	clip: rect(auto auto 3px 3px);
+}
+
+.adm-Sheet-bl
+{
+	clip: rect(3px 3px auto auto);
+}
+
+.adm-Sheet-br
+{
+	clip: rect(3px auto auto 3px);
+}
+
+.adm-Sheet-tc
+{
+	clip: rect(auto auto 3px auto);
+}
+
+.adm-Sheet-bc
+{
+	clip: rect(3px auto auto auto);
+}
+
+.adm-Sheet-cr
+{
+	clip: rect(auto auto auto 3px);
+}
+
+.adm-Sheet-cl
+{
+	clip: rect(auto 3px auto auto);
+}
+
+.adm-Sheet-body
+{
+	zoom: 1;
+}
+
+.adm-nav .r
+{
+	clip: rect(auto auto auto 992px);
+}
+
+.adm-menu a .r
+{
+	clip: rect(auto auto auto 406px);
+}
+
+.adm-Block-body
+{
+	zoom: 1;
+}
+
+.adm-BlockHeader .r
+{
+	clip: rect(auto auto auto 989px);
+}
+
+.adm-BlockContent-tl
+{
+	clip: rect(auto 7px 7px auto);
+}
+
+.adm-BlockContent-tr
+{
+	clip: rect(auto auto 7px 7px);
+}
+
+.adm-BlockContent-bl
+{
+	clip: rect(7px 7px auto auto);
+}
+
+.adm-BlockContent-br
+{
+	clip: rect(7px auto auto 7px);
+}
+
+.adm-BlockContent-tc
+{
+	clip: rect(auto auto 7px auto);
+}
+
+.adm-BlockContent-bc
+{
+	clip: rect(7px auto auto auto);
+}
+
+.adm-BlockContent-cr
+{
+	clip: rect(auto auto auto 7px);
+}
+
+.adm-BlockContent-cl
+{
+	clip: rect(auto 7px auto auto);
+}
+
+.adm-BlockContent-body
+{
+	zoom: 1;
+}
+
+.adm-Post-tl
+{
+	clip: rect(auto 7px 7px auto);
+}
+
+.adm-Post-tr
+{
+	clip: rect(auto auto 7px 7px);
+}
+
+.adm-Post-bl
+{
+	clip: rect(7px 7px auto auto);
+}
+
+.adm-Post-br
+{
+	clip: rect(7px auto auto 7px);
+}
+
+.adm-Post-tc
+{
+	clip: rect(auto auto 7px auto);
+}
+
+.adm-Post-bc
+{
+	clip: rect(7px auto auto auto);
+}
+
+.adm-Post-cr
+{
+	clip: rect(auto auto auto 7px);
+}
+
+.adm-Post-cl
+{
+	clip: rect(auto 7px auto auto);
+}
+
+.adm-Post-body
+{
+	zoom: 1;
+}
+
+.adm-PostContent
+{
+	height:1%;
+}
+
+.adm-button-wrapper .r
+{
+	clip: rect(auto auto auto 398px);
+}

@@ -1,0 +1,79 @@
+#cotacao #info { margin-top: 23px; padding: 0 25px 30px; }
+#cotacao #info fieldset { position: relative; }
+#cotacao #info .cont { position: relative; z-index: 1000; }
+#cotacao #info .tarja { padding: 3px 25px; background: #4d6cb5; color: #fefefe; }
+#cotacao #info .tarja.veiculo { margin-top: 57px; height: 15px; }
+html /**/>/**/ body#cotacao #info .tarja.veiculo { margin-top: 0; clear: both; }
+#cotacao #info .tarja.veiculo h3 { float: left; }
+#cotacao #info .tarja.veiculo p { float: right; margin: 0 225px 0 0; }
+
+#cotacao #info h1 { float: left; padding: 20px 0 20px 20px; font-size: 1.4em; color: #333333; }
+#cotacao #info h3 { font-size: 1.3em; }
+
+#cotacao #info #cartoes { float: right; margin: 15px 250px 0 0; color: #333333; }
+#cotacao #info #cartoes dt,
+#cotacao #info #cartoes dd,
+#cotacao #info #cartoes dd ul,
+#cotacao #info #cartoes dd ul li { float: left; }
+#cotacao #info #cartoes dt { margin: 5px 6px 0 0; font-size: 1.1em; font-weight: bold; }
+#cotacao #info #cartoes dd ul li { margin-right: 6px; }
+
+#cotacao #info p.foto { float: right; margin: 50px 280px 0 0; width: 195px; height: 100px; }
+
+#cotacao #info #grupo_info { width: 330px; height: 140px; padding: 10px 0 20px 20px;  font-size: 1.1em; line-height: 17px; color: #333333; }
+#cotacao #info #grupo_info dt { clear: left; float: left; width: 50%; font-weight: bold; }
+#cotacao #info #grupo_info dd { float: left; width: 50%; }
+
+#cotacao #info #veiculo_info { height: 60px; margin: 0 0 25px 20px; color: #333333; }
+#cotacao #info #veiculo_info li { float: left; width: 36px; height: 20px; margin-right: 10px; padding-top: 40px; background: top center no-repeat; text-transform: uppercase; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: .9em; }
+#cotacao #info #veiculo_info li.duas_portas { background-image: url(/images/layum/carro_icons/2_portas_36.png); }
+#cotacao #info #veiculo_info li.quatro_portas { background-image: url(/images/layum/carro_icons/4_portas_36.png); }
+#cotacao #info #veiculo_info li.ar_condicionado { background-image: url(/images/layum/carro_icons/ar_cond_36.png); }
+#cotacao #info #veiculo_info li.cambio_automatico { background-image: url(/images/layum/carro_icons/camb_auto_36.png); }
+#cotacao #info #veiculo_info li.cambio_manual { background-image: url(/images/layum/carro_icons/camb_manual_36.png); }
+#cotacao #info #veiculo_info li.capacidade { width: 44px; background-image: url(/images/layum/carro_icons/capacidade_36.png); }
+#cotacao #info #veiculo_info li.cd_player { background-image: url(/images/layum/carro_icons/cd_36.png); }
+#cotacao #info #veiculo_info li.dir_hidraulica { background-image: url(/images/layum/carro_icons/dir_hidr_36.png); }
+#cotacao #info #veiculo_info li.km_livre { background-image: url(/images/layum/carro_icons/km_free_36.png); }
+#cotacao #info #veiculo_info li.mala_grande { width: 48px; background-image: url(/images/layum/carro_icons/mala_gde_36.png); }
+#cotacao #info #veiculo_info li.mala_pequena { width: 53px; background-image: url(/images/layum/carro_icons/mala_pqe_36.png); }
+#cotacao #info #veiculo_info li.motor { background-image: url(/images/layum/carro_icons/motor_36.png); }
+#cotacao #info #veiculo_info li.promocional { width: 54px; background-image: url(/images/layum/carro_icons/promocional_36.png); }
+#cotacao #info #veiculo_info li.trio_eletrico { width: 50px; background-image: url(/images/layum/carro_icons/trio_36.png); }
+
+#cotacao #info #locais { font-size: 1.1em; color: #333333; }
+#cotacao #info #locais p { margin-top: 10px; padding-left: 25px; }
+#cotacao #info #locais ul { margin: 12px 0; padding-left: 25px; line-height: 18px; }
+#cotacao #info #locais ul input { vertical-align: middle; margin-right: 5px; }
+#cotacao #info #locais ul span { text-transform: uppercase; font-weight: bold; }
+#cotacao #info #locais ul span.disponivel { color: #079200; }
+#cotacao #info #locais ul span.indisponivel { color: #bf0000; }
+
+#cotacao #info #protecoes { padding: 0 0 20px 25px; line-height: 18px; font-size: 1.1em; color: #333333; }
+#cotacao #info #protecoes li { margin-top: 20px; }
+#cotacao #info #protecoes label { font-weight: bold; } 
+#cotacao #info #protecoes input { vertical-align: middle; }
+
+#cotacao #info #opcionais { padding: 20px 0 20px 25px; line-height: 18px; font-size: 1.1em; color: #333333; }
+#cotacao #info #opcionais input { vertical-align: middle; } 
+
+#cotacao #info #valores { position: absolute; margin-top: -57px; top: 0; left: 598px; width: 230px; min-height: 100px; }
+html /**/>/**/ body#cotacao #info #valores { margin-top: 0; } 
+#cotacao #info #valores #valores-display { position: relative; height: 27px; background: url(/images/layum/cotacao_valores_top.png) bottom left no-repeat; }
+#cotacao #info #valores #valores-display.fix { background-position-y: top; }
+#cotacao #info #valores #valores-display a { position: absolute; top: 7px; display: block; text-indent: -999em; overflow: hidden; }
+#cotacao #info #valores #valores-display #valores-display-mover { left: 12px; width: 12px; height: 12px; cursor: move; }
+#cotacao #info #valores #valores-display #valores-display-locker { right: 16px; width: 44px; height: 12px; }
+#cotacao #info #valores dl { padding: 10px 15px 30px; background: #e5e5e5; line-height: 20px; font-size: 1em; color: #333333; }
+#cotacao #info #valores dl dt { clear: left; float: left; width: 50%; font-weight: bold; }
+#cotacao #info #valores dl dd { float: left; width: 50%; }
+#cotacao #info #valores dl dd img { vertical-align: middle; }
+#cotacao #info #valores .total { height: 24px; padding: 10px 15px; background: url(/images/layum/cotacao_valores_bot.png) top left no-repeat; text-transform: uppercase; font-size: 1.3em; font-weight: bold; color: #FFFFFF; }
+#cotacao #info #valores .total strong { margin-right: 5px; }
+
+#cotacao #info #botoes { padding-bottom: 30px; cursor: default; }
+#cotacao #info #botoes p { display: inline-block; }
+#cotacao #info #botoes button { height: 43px; margin-left: 35px; border: 0 none; background:  center center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+#cotacao #info #botoes #retornar{ width: 174px; margin-left: 60px; background-image: url(/images/layum/cotacao_btn_retornar.png); }
+#cotacao #info #botoes #indicar { width: 268px; background-image: url(/images/layum/cotacao_btn_indicar.png); }
+#cotacao #info #botoes #reservar { width: 174px; background-image: url(/images/layum/cotacao_btn_reservar.png); }

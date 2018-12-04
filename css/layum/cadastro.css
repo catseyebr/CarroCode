@@ -1,0 +1,60 @@
+.cadastro h1 { margin-top: 30px; padding: 0 25px; font-size: 1.4em; color: #1426b5; }
+.cadastro #novo-cliente { margin-top: 30px; padding: 0 25px; }
+.cadastro #novo-cliente fieldset { position: relative; display: block; width: 628px; margin: 25px; padding-top: 20px; background: url(/images/layum/def_form_bg.gif) top left no-repeat; }
+.cadastro #novo-cliente fieldset .cont { padding: 0 25px 20px; background: url(/images/layum/def_form_bg.gif) bottom left no-repeat; color: #262b54; }
+.cadastro #novo-cliente fieldset .cont a { color: #262b54; }
+.cadastro #novo-cliente fieldset h3 { position: absolute; margin-top: -28px; padding: 0 7px; background: #ffffff; font-size: 1.1em; }
+.cadastro #novo-cliente fieldset ul li { float: left; margin-bottom: 13px; }
+.cadastro #novo-cliente fieldset label { float: left; margin-right: 7px; padding-top: 4px; font-weight: bold; }
+.cadastro #novo-cliente fieldset #sexo label { font-weight: normal; }
+.cadastro #novo-cliente fieldset input[type=text] { height: 20px; padding: 0 6px; font-size: 1em; line-height: 20px; }
+.cadastro #novo-cliente fieldset select { height: 20px; padding-left: 6px; font-size: 1em; }
+
+.cadastro #novo-cliente #empresa label { width: 90px; }
+.cadastro #novo-cliente #empresa #razao_social,
+.cadastro #novo-cliente #empresa #nome_fantasia { width: 400px; }
+.cadastro #novo-cliente #empresa #cnpj { width: 100px; }
+.cadastro #novo-cliente #empresa #insc_est-cont { margin-left: 20px; }
+.cadastro #novo-cliente #empresa #insc_est-cont label { width: 110px; }
+.cadastro #novo-cliente #empresa #insc_est-cont #insc_est { width: 150px; }
+
+.cadastro #novo-cliente #endereco li { margin-left: 20px; }
+.cadastro #novo-cliente #endereco li.primeiro { margin-left: 0; }
+.cadastro #novo-cliente #endereco.nac #cep { width: 57px; }
+.cadastro #novo-cliente #endereco.nac #logradouro { width: 372px; }
+.cadastro #novo-cliente #endereco.inter #cep-cont { display: none; }
+.cadastro #novo-cliente #endereco.inter #logradouro { width: 500px; }
+.cadastro #novo-cliente #endereco #numero { width: 34px; }
+.cadastro #novo-cliente #endereco #complemento,
+.cadastro #novo-cliente #endereco #bairro { width: 132px; }
+.cadastro #novo-cliente #endereco #cidade { width: 176px; }
+.cadastro #novo-cliente #endereco #estado { width: 128px; }
+.cadastro #novo-cliente #endereco #pais { width: 100px; }
+
+.cadastro #novo-cliente #contatos select { width: 120px; }
+.cadastro #novo-cliente #contatos ul { margin-bottom: 20px; }
+.cadastro #novo-cliente #contatos ul li { margin: 0 0 0 40px; display: block;	 }
+.cadastro #novo-cliente #contatos ul li.primeiro { margin-left: 0; }
+.cadastro #novo-cliente #contatos div.adicional { padding: 10px; border: 1px dashed #e4e3e3; }
+.cadastro #novo-cliente #contatos div.adicional ul li { margin-left: 20px; }
+.cadastro #novo-cliente #contatos div.adicional ul li.primeiro { margin-left: 10px; }
+.cadastro #novo-cliente #contatos a.excluir { float: left; width: 17px; height: 15px; margin-top: 3px; background: url(/images/layum/cadastro_link_excluir.png) center center no-repeat; text-indent: -999em; overflow: hidden; }
+.cadastro #novo-cliente #contatos #mais_contato { display: block; width: 129px; height: 37px; margin-top: 20px; border: 0 none; background: url(../../images/layum/btn_maiscontato_azul.png) center center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+
+.cadastro #novo-cliente #usuario-principal p { margin-bottom: 20px; }
+.cadastro #novo-cliente #usuario-principal .dados-acesso label { width: 105px; }
+.cadastro #novo-cliente #usuario-principal ul li { margin-left: 20px; width: 250px; }
+.cadastro #novo-cliente #usuario-principal ul li.primeiro { clear: left; margin-left: 0; }
+.cadastro #novo-cliente #usuario-principal ul li.cont-usuario-cadastro { width: 100%; }
+.cadastro #novo-cliente #usuario-principal #sexo li { width: auto; margin: 0; }
+.cadastro #novo-cliente #usuario-principal .linha { width: 100%; }
+.cadastro #novo-cliente #usuario-principal ul li #nome { width: 188px; }
+.cadastro #novo-cliente #usuario-principal ul li #sobrenome { width: 157px; }
+.cadastro #novo-cliente #usuario-principal ul li.cont-rg { width: 160px; }
+.cadastro #novo-cliente #usuario-principal ul li.cont-cpf { width: auto; }
+
+.cadastro #novo-cliente .botoes { margin-bottom: 30px; }
+.cadastro #novo-cliente .botoes #btn_cadastrar,
+.cadastro #novo-cliente .botoes #btn_cancelar { float: left; width: 174px; height: 41px; margin: 0 65px; border: 0 none; background: center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+.cadastro #novo-cliente .botoes #btn_cadastrar { background-image: url(/images/layum/btn_cadastrar_verde.png); }
+.cadastro #novo-cliente .botoes #btn_cancelar { background-image: url(/images/layum/btn_cancelar_vermelho.png); }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLRoot>
+  <banners>
+    <?php foreach($this->dados as $dados) { ?>
+    <banner>
+      <arquivo>/flashdata/<?php echo $dados->des_arquivo; ?></arquivo>
+      <conteudo>
+        <![CDATA[<?php echo $dados->des_conteudo; ?>]]>
+      </conteudo>
+    </banner>
+    <?php } ?>
+  </banners>
+</XMLRoot>

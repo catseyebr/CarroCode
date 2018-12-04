@@ -1,0 +1,97 @@
+
+#busca #detalhes_pesquisa { padding: 10px 25px 15px; }
+#busca #detalhes_pesquisa #banner_pesquisa { float: left; width: 515px; height: 230px; margin-right: 20px; }
+#busca #detalhes_pesquisa #termos_pesquisa { z-index: 1; position: relative; float: left; width: 290px; }
+#busca #detalhes_pesquisa #termos_pesquisa dl { position: relative; z-index: 3; padding: 5%; font-size: 1.1em; }
+#busca #detalhes_pesquisa #termos_pesquisa dt { float: left; clear: left; width: 50%; padding-bottom: 4px; font-weight: bold; color: #08215a; }
+#busca #detalhes_pesquisa #termos_pesquisa dd { float: left; width: 50%; padding-bottom: 4px; }
+#busca #detalhes_pesquisa #nova_pesquisa { position: absolute; z-index: 4; left: 58px; bottom: -35px; display: block; width: 183px; height: 32px; background: url(/images/layum/btn_nova_pesquisa.png) top left no-repeat; text-indent: -999em; overflow: hidden; }
+
+#busca #resultados_pesquisa { padding: 0 25px; }
+
+#busca #resultados_pesquisa #abas_pesquisa li { float: left; position: relative; top: 10px; width: 133; height: 16px; margin-right: 10px; padding: 14px 20px 0; cursor: pointer; }
+#busca #resultados_pesquisa #abas_pesquisa li .corner { height: 100%; }
+#busca #resultados_pesquisa #abas_pesquisa li a { position: relative; z-index: 3; margin-top: 10px; text-transform: uppercase; text-decoration: none; font: bold 1.2em Arial, Sans-Serif; color: #535353; }
+#busca #resultados_pesquisa #abas_pesquisa li.ativo { top: 0; height: 26px; }
+#busca #resultados_pesquisa #abas_pesquisa li.ativo a { color: #335198; }
+
+#busca #resultados_pesquisa #resultados_comparacao { position: relative; margin-bottom: 100px; padding-bottom: 30px; }
+#busca #resultados_pesquisa #resultados_comparacao .top_left { background-color: #e4e3e3; }
+#busca #resultados_pesquisa #resultados_comparacao .cont { position: relative; z-index: 3; }
+
+#busca #resultados_pesquisa #resultados_comparacao .abstract { padding: 20px 0 0 110px; font-size: 1.1em; }
+
+#busca #resultados_pesquisa #resultados_comparacao .paginas { padding: 20px 0 0 110px; font-size: 1.1em; }
+#busca #resultados_pesquisa #resultados_comparacao .paginas dt { display: inline; font-weight: bold; }
+#busca #resultados_pesquisa #resultados_comparacao .paginas dd { display: inline; }
+#busca #resultados_pesquisa #resultados_comparacao .paginas dd ul { display: inline; }
+#busca #resultados_pesquisa #resultados_comparacao .paginas dd li { display: inline; margin-left: 5px; padding-left: 7px; border-left: 1px solid #000000; }
+#busca #resultados_pesquisa #resultados_comparacao .paginas dd li.primeiro { padding-left: 0; border-left: 0 none; }
+#busca #resultados_pesquisa #resultados_comparacao .paginas dd li a { text-decoration: none; color: #000000; }
+#busca #resultados_pesquisa #resultados_comparacao .paginas dd li a:hover { text-decoration: underline; }
+
+#busca #resultados_pesquisa #resultados_comparacao #legenda { position: absolute; z-index: 10; top: 0; left: -45px; width: 874px; height: 22px; margin-top: 68px; padding: 6px 20px 8px; background: url(/images/layum/legenda_flutuante_bg.png) top left no-repeat; font-size: 1.1em; }
+#busca #resultados_pesquisa #resultados_comparacao #legenda img { vertical-align: middle; }
+#busca #resultados_pesquisa #resultados_comparacao #legenda p { display: none; }
+#busca #resultados_pesquisa #resultados_comparacao #legenda dl { text-align: center; }
+#busca #resultados_pesquisa #resultados_comparacao #legenda dt { display: inline; }
+#busca #resultados_pesquisa #resultados_comparacao #legenda dd { display: inline; margin-right: 15px; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result { position: relative; width: 828px; margin-top: 10px; padding-top: 30px;  overflow: hidden; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras { position: relative; height: 74px; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras div.blank { position: absolute; z-index: 4; width: 124px; height: 100%; background: #e4e3e3 url(/images/layum/comparacao_locadoras_corner.gif) top right no-repeat; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras ul { position: absolute; left: 108px; width: 10000%; height: 100%; background: #f7f7f7 url(/images/layum/comparacao_locadoras_bg.gif) top left repeat-x; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras ul li { float: left; width: 103px; height: 100%; padding-left: 16px; border-right: 1px solid #c8c8c8; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras ul li img { display: block; margin-top: 13px; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras ul li a { font-size: 1.1em; display: block; color: #060e7d; text-decoration: none; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras ul li a:hover { text-decoration: underline; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result #row_locadoras ul li div.diferenciais { display: none; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row { height: 96px;vertical-align: middle; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row div.categoria { position: absolute; z-index: 1; width: 107px; height: 85px; padding-top: 10px; border-bottom: 1px solid #91afc6; border-right: 1px solid #91afc6; background: #a2c3dd url(/images/layum/comparacao_categoria_bg.gif) top left no-repeat; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row div.categoria h3 { padding-left: 10px; font-size: 1.2em; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row div.categoria img { display: block; margin: 0 auto; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row div.categoria a { padding-left: 10px; text-decoration: none; font: 1.1em Arial, sans-serif; color: #0018ff; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row div.categoria a:hover { text-decoration: underline; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul { position: absolute; left: 108px; width: 10000%; background: #e5e5e5 url(/images/layum/comparacao_valores_bg.gif) top left repeat-x; border-bottom: 1px solid #cecece; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li { float: left; width: 119px; height: 95px; border-right: 1px solid #cecece; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li h4 { display: none; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li p.valor_dia { text-align: center; padding-top: 20px; font: bold 1.5em Arial, Verdana, sans-serif; color: #a6a6a6; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li p.valor_total { text-align: center; font: 1.2em Arial, Verdana, sans-serif; color: #a6a6a6; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li p.link_cont { padding: 16px 0 0 9px; text-transform: uppercase; font-size: .9em; font-weight: bold; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li p.link_cont a { display: block; text-decoration: none; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li p.link_cont a:hover { text-decoration: underline; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li p.link_cont img { float: left; margin: -5px 5px 0 0; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.solicitar p.valor_dia strong,
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.solicitar_online p.valor_dia strong { color: #000000; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.solicitar p.link_cont,
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.solicitar p.link_cont a { color: #001ced; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.solicitar_online p.link_cont { padding-top: 10px; color: #198f06; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.solicitar_online p.link_cont a { color: #198f06; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.solicitar_online p.link_cont img { margin-top: 0; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.indisponivel p.link_cont,
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.indisponivel p.link_cont a { color: #ff7200; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.inexistente p.link_cont { padding-top: 45px; color: #ff0000; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.inexistente p.link_cont a { color: #ff0000; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row ul li.menor { background: #e5dc9a url(/images/layum/comparacao_valores_menor_bg.gif) top left repeat-x; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row.primeiro div.categoria { background-image: url(/images/layum/comparacao_categoria_primeiro_bg.gif); }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row.primeiro ul { border-top: 1px solid #cecece; }
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row.primeiro ul li { height: 94px; }
+
+#busca #resultados_pesquisa #resultados_comparacao #comparacao_result ol li.row.ultimo div.categoria { padding-bottom: 1px; border-bottom: 0 none; background: #b4d9f5 url(/images/layum/comparacao_categoria_ultimo_bg.gif) bottom left no-repeat; }
+
+#busca #resultados_pesquisa #resultados_comparacao #pag_prox,
+#busca #resultados_pesquisa #resultados_comparacao #pag_ant { position: absolute; top: 0; width: 73px; height: 88px; margin-top: 230px; background: url(/images/layum/comparacao_setas.png) no-repeat; cursor: pointer; }
+#busca #resultados_pesquisa #resultados_comparacao #pag_prox { right: -81px; background-position: bottom right; }
+#busca #resultados_pesquisa #resultados_comparacao #pag_ant { left: -81px; background-position: bottom left; }
+#busca #resultados_pesquisa #resultados_comparacao #pag_prox:hover { background-position: top right; }
+#busca #resultados_pesquisa #resultados_comparacao #pag_ant:hover { background-position: top left; }
+#busca #resultados_pesquisa #resultados_comparacao #pag_prox a,
+#busca #resultados_pesquisa #resultados_comparacao #pag_ant a { display: none; }
+#nada_encontrado { text-align:center; padding: 10px 10px 0px 10px; }

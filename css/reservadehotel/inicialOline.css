@@ -1,0 +1,1561 @@
+ *, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(/images/top.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+    font-family: Arial, Georgia, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+} #page {
+    margin: 0 auto;
+    width: 824px;
+    display: block;
+} #page ul li {
+    list-style: none;
+}
+
+div#page:after, div#topo:after, div#topo_logo:after, div#content:after, div#conteudo_baixo:after, div#content_rodape:after, div#filtro:after, .tabdiv ul:after, div#featured3:after, div#voltar_pagina2:after, div#geral_processo:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+a {
+    outline: none;
+}
+
+/* ------------------------------------ INÍCIO HOME -------------------------------- */
+div#topo {
+    width: 824px;
+    height: 64px;
+    display: block;
+    border-bottom: 1px dashed #608091;
+}
+
+div#menun_cima {
+    width: 400px;
+    height: 64px;
+    display: block;
+    float: left;
+}
+
+div#menun_cima ul {
+    margin-top: 10px;
+}
+
+div#menun_cima ul li {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 17px;
+    padding-right: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+div#menun_cima ul li.first {
+    margin-left: 0px;
+}
+
+div#menun_cima ul li.last {
+    border-right: none;
+}
+
+div#menun_cima ul li a {
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div#menun_cima ul li a:hover {
+    color: #fbcc6f;
+    text-decoration: underline;
+}
+
+div#atendimento {
+    width: 195px;
+    height: 34px;
+    display: block;
+    float: right;
+    margin-top: 17px;
+}
+
+div#topo_logo {
+    width: 824px;
+    height: 87px;
+    display: block;
+    clear: both;
+}
+
+div#topo_logo h1 {
+    width: 253px;
+    height: 70px;
+    display: block;
+    float: left;
+    background: url(/images/logomarca.jpg) no-repeat;
+    text-indent: -9000px;
+    overflow: hidden;
+    margin-top: 17px;
+}
+
+div#topo_logo h1 a {
+    width: 253px;
+    height: 70px;
+    display: block;
+    float: left;
+}
+
+div#menu {
+    width: 488px;
+    height: 70px;
+    display: block;
+    float: right;
+    margin-top: 17px;
+    background: url(/images/fundo_menu.jpg) no-repeat;
+}
+
+div#menu ul {
+    margin-top: 10px;
+}
+
+div#menu ul li {
+    display: inline;
+    float: left;
+    margin-left: 40px;
+    margin-top: 17px;
+}
+
+div#menu ul li.conta {
+    margin-left: 26px;
+}
+
+div#menu ul li.cadastro {
+    margin-left: 38px;
+}
+
+div#menu ul li a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#menu ul li a:hover {
+    color: #06364f;
+    text-decoration: underline;
+}
+
+div#busca {
+    width: 824px;
+    /* height: 208px;*/
+    height: auto;
+    display: block;
+    clear: both;
+    /*background: url(/images/fundo_busca.jpg) no-repeat;*/
+    background: #D0D0D0 url(/images/fundo_busca.jpg) no-repeat;
+	padding-bottom: 5px;
+}
+
+div#formulario {
+    width: 590px;
+  /*  height: 186px; */
+    height: auto;
+    display: block;
+    padding-top: 34px;
+    padding-left: 20px;
+    color: #063750;
+    font-size: 12px;
+}
+
+div#formulario h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #063750;
+} .texbox {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #6e6d6d;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 350px;
+    height: 20px;
+} .texbox2 {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #6e6d6d;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 130px;
+    height: 20px;
+} .texbox3 {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #6e6d6d;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 137px;
+    height: 20px;
+}
+
+div#content {
+    width: 824px;
+    display: block;
+    clear: both;
+    margin-top: 23px;
+}
+
+div#conteudo_esquerda {
+    width: 419px;
+    display: block;
+    float: left;
+}
+
+div#tarifa_hora {
+    width: 419px;
+    height: 291px;
+    display: block;
+    background: url(/images/fundo_tarifa.gif) repeat-x;
+}
+
+div#tarifa_hora h3 {
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+div#tarifa_hora table {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #c57702;
+}
+
+div#tarifa_hora span {
+    font-size: 16px;
+    color: #063750;
+    font-weight: bold;
+}
+
+div#tarifa_hora strong {
+    color: #4c4c4c;
+}
+
+div#borda_tarifa {
+    width: 419px;
+    height: 16px;
+    display: block;
+    clear: both;
+}
+
+div#mais_buscados {
+    width: 419px;
+    height: 278px;
+    display: block;
+    clear: both;
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #878787;
+}
+
+div#mais_buscados span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #387ea3;
+}
+
+div#mais_buscados a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #878787;
+    text-decoration: underline;
+}
+
+div#mais_buscados h3 {
+    width: 419px;
+    height: 30px;
+    display: block;
+    font-size: 20px;
+    color: #de8e06;
+    border-bottom: 3px solid #cddce5;
+}
+
+div#mais_buscados img {
+    padding-top: 10px;
+}
+
+div#conteudo_direita {
+    width: 354px;
+    display: block;
+    float: right;
+}
+
+div#tarifas_especiais {
+    width: 354px;
+    display: block;
+}
+
+div#tarifas_especiais h3 {
+    width: 354px;
+    height: 30px;
+    display: block;
+    font-size: 20px;
+    color: #063750;
+    border-bottom: 3px solid #70a1bb;
+}
+
+div#tarifas_especiais p {
+    font-size: 16px;
+    color: #387ea3;
+    font-weight: bold;
+    padding: 17px 0 17px 0;
+}
+
+div#tarifas_especiais ul {
+    margin-top: 10px;
+}
+
+div#tarifas_especiais ul li {
+    font-size: 12px;
+    color: #000000;
+    margin-top: 4px;
+}
+
+div#tarifas_especiais ul li strong {
+    font-size: 14px;
+    color: #000000;
+}
+
+div#central_atendimento {
+    width: 354px;
+    height: 143px;
+    display: block;
+    clear: both;
+    margin-top: 18px;
+}
+
+div#central_atendimento h3 {
+    width: 354px;
+    height: 30px;
+    display: block;
+    font-size: 20px;
+    color: #12577a;
+    border-bottom: 3px solid #cddce5;
+}
+
+div#central_atendimento img {
+    padding-top: 17px;
+}
+
+div#como_reservar {
+    width: 354px;
+    display: block;
+    clear: both;
+    margin-top: 18px;
+}
+
+div#como_reservar h3 {
+    width: 354px;
+    height: 30px;
+    display: block;
+    font-size: 20px;
+    color: #5c92ad;
+    border-bottom: 3px solid #cddce5;
+}
+
+div#como_reservar p {
+    margin-top: 17px;
+    font-size: 12px;
+    color: #000000;
+}
+
+div#como_reservar p a {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 4px;
+    display: block;
+}
+
+div#como_reservar p a:hover {
+    color: #12577a;
+}
+
+div#conteudo_baixo {
+    width: 824px;
+    display: block;
+    clear: both;
+    padding-top: 40px;
+} .box_baixo {
+    width: 250px;
+    display: block;
+    float: left;
+    padding-left: 34px;
+    font-size: 12px;
+    color: #000000;
+} .box_baixo h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #9ea7b7;
+    padding-bottom: 17px;
+} .box_baixo strong {
+    color: #00174f;
+    font-size: 12px;
+} .box_baixo a {
+    font-size: 12px;
+    color: #ff0000;
+    text-decoration: underline;
+    margin-top: 3px;
+    display: block;
+} .box_baixo a:hover {
+    color: #387ea3;
+} .first {
+    padding-left: 0;
+} .botao_baixo {
+    margin-top: 10px;
+} .texbox5 {
+    border: 1px solid #b1cddb;
+    background-color: #ecedf1;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #063852;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 183px;
+    height: 20px;
+    margin-top: 10px;
+} .texbox6 {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #063852;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 183px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+/* ------------------------------------ FIM HOME -------------------------------- */
+/* ------------------------------------ INÍCIO RODAPÉ -------------------------------- */
+div#rodape {
+    height: 218px;
+    display: block;
+    clear: both;
+    background: url(/images/fundo_rodape.gif) repeat-x;
+    margin-top: 70px;
+}
+
+div#rodape ul li {
+    list-style: none;
+}
+
+div#content_rodape {
+    width: 824px;
+    display: block;
+    margin: 0 auto;
+}
+
+div#localizacao {
+    width: 824px;
+    height: 34px;
+    display: block;
+    background: url(/images/topo_localizacao.jpg) no-repeat left;
+}
+
+div#localizacao p {
+    font-size: 13px;
+    color: #ffffff;
+    padding: 10px 0 0 15px;
+}
+
+div#localizacao span {
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+div#logo_rodape {
+    width: 250px;
+    height: 112px;
+    display: block;
+    float: left;
+    margin-top: 18px;
+}
+
+div#logo_rodape h1 {
+    width: 250px;
+    height: 112px;
+    display: block;
+    float: left;
+    background: url(/images/logo_rodape.jpg) no-repeat;
+    text-indent: -9000px;
+    overflow: hidden;
+}
+
+div#logo_rodape h1 a {
+    width: 250px;
+    height: 112px;
+    display: block;
+    float: left;
+}
+
+div#menu_rodape {
+    width: 479px;
+    height: 92px;
+    display: block;
+    float: right;
+}
+
+div#menu_rodape ul.cima_rodape {
+    height: 33px;
+    width: 479px;
+    display: block;
+    margin-top: 18px;
+}
+
+div#menu_rodape ul.cima_rodape li {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 17px;
+    padding-right: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+div#menu_rodape ul.cima_rodape li.first {
+    margin-left: 0px;
+}
+
+div#menu_rodape ul.cima_rodape li.last {
+    border-right: none;
+}
+
+div#menu_rodape ul.cima_rodape li a {
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div#menu_rodape ul.cima_rodape li a:hover {
+    color: #fbcc6f;
+    text-decoration: underline;
+}
+
+div#menu_rodape ul.baixo_rodape {
+    width: 479px;
+    height: 41px;
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    background: url(/images/menu_rodape.jpg) no-repeat;
+}
+
+div#menu_rodape ul.baixo_rodape li {
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    padding-top: 12px;
+}
+
+div#menu_rodape ul.baixo_rodape li a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#menu_rodape ul.baixo_rodape li a:hover {
+    color: #fbcc6f;
+    text-decoration: underline;
+}
+
+div#disclaimer {
+    width: 824px;
+    height: 35px;
+    display: block;
+    clear: both;
+    border-top: 1px solid #4a8aab;
+}
+
+div#disclaimer p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 0 0 0;
+}
+
+/* ------------------------------------ FIM RODAPÉ -------------------------------- */
+/* ------------------------------------ INÍCIO BUSCA -------------------------------- */
+div#resultados {
+    width: 824px;
+    display: block;
+    clear: both;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #06364f;
+    font-weight: bold;
+}
+
+div#resultados span {
+    font-size: 16px;
+    color: #000000;
+}
+
+div#titulo_filtro {
+    width: 824px;
+    height: 36px;
+    display: block;
+    clear: both;
+    background: url(/images/fundo_titulo.jpg) no-repeat left;
+}
+
+div#titulo_filtro h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 8px 0 0 8px;
+}
+
+div#filtro {
+    width: 824px;
+    height: 125px;
+    display: block;
+    clear: both;
+    background: url(/images/fundo_filtro.jpg) no-repeat;
+}
+
+div#form_filtro {
+    width: 620px;
+    height: 80px;
+    display: block;
+    float: left;
+    padding-top: 27px;
+    padding-left: 22px;
+}
+
+div#form_filtro ul li {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div#form_filtro ul li.check {
+    padding-top: 5px;
+    margin-bottom: 15px;
+} .texbox30 {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #6e6d6d;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 280px;
+    height: 20px;
+} .texbox31 {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #6e6d6d;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 130px;
+    height: 20px;
+}
+
+div#botao_filtro {
+    width: 148px;
+    height: 49px;
+    float: left;
+    display: block;
+    padding: 36px 0 0 2px;
+} .paginacao {
+    width: 824px;
+    height: 20px;
+    display: block;
+    clear: both;
+    margin-top: 15px;
+} .paginacao ul li {
+    width: 15px;
+    height: 20px;
+    background-color: #d6d6d6;
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 6px;
+} .paginacao ul li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #136089;
+    width: 15px;
+    height: 20px;
+    display: block;
+} .paginacao ul li a:hover {
+    color: #000000;
+} .paginacao ul li.last {
+    background: none;
+}
+
+/* ------------------------------------ INÍCIO BUSCA HOTEIS -------------------------------- */
+div#content .hoteis {
+    width: 824px;
+    height: 130px;
+    display: block;
+    clear: both;
+    border-bottom: 1px solid #d9e5ec;
+    margin-top: 20px;
+}
+
+div#content .foto_hotel {
+    width: 130px;
+    height: 130px;
+    display: block;
+    float: left;
+}
+
+div#content .foto_hotel img {
+    border: 1px solid #5d96b5;
+}
+
+div#content .foto_hotel h4 {
+    width: 130px;
+    height: 23px;
+    display: block;
+    background: url(/images/fundo_coment.gif) no-repeat left;
+}
+
+div#content .foto_hotel h4 a {
+    font-size: 11px;
+    color: #686868;
+    font-weight: bold;
+    padding-left: 35px;
+    line-height: 25px;
+}
+
+div#content .foto_hotel h4 a:hover {
+    color: #000000;
+}
+
+div#content .info_hotel {
+    width: 540px;
+    display: block;
+    float: left;
+    padding-left: 22px;
+}
+
+div#content .info_hotel ul li {
+    font-size: 12px;
+    color: #000000;
+    line-height: 20px;
+}
+
+div#content .info_hotel ul li a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#content .info_hotel ul li a:hover {
+    color: #136089;
+    text-decoration: underline;
+}
+
+div#content .info_hotel ul li strong {
+    font-size: 12px;
+    color: #136089;
+}
+
+div#content .info_hotel ul li span {
+    font-size: 16px;
+}
+
+div#content .preco_hotel {
+    width: 118px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #136089;
+    font-weight: bold;
+}
+
+div#content .preco_hotel strong {
+    font-size: 30px;
+    color: #073953;
+}
+
+div#content .preco_hotel span {
+    font-size: 16px;
+    color: #073953;
+}
+
+/* ------------------------------------ FIM BUSCA HOTEIS -------------------------------- */
+/* ------------------------------------ FIM BUSCA -------------------------------- */
+/* ------------------------------------ ÍNICIO INTERNA BUSCA -------------------------------- */
+div#content .voltar_pagina {
+    width: 824px;
+    height: 20px;
+    display: block;
+    clear: both;
+    margin-top: 15px;
+}
+
+div#content .voltar_pagina a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #136089;
+}
+
+div#content .voltar_pagina a:hover {
+    color: #000000;
+}
+
+div#content .interna_hoteis {
+    width: 824px;
+    height: 130px;
+    display: block;
+    clear: both;
+    margin-top: 20px;
+}
+
+/* ------------------------------------ ÍNICIO ABAS-------------------------------- */ .widget {
+    width: 824px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: block;
+} .widget a {
+    color: #222;
+    text-decoration: none;
+} .widget a:hover {
+    color: #009;
+    text-decoration: underline;
+} .tabnav li {
+    display: inline;
+    list-style: none;
+    padding-right: 5px;
+} .tabnav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #083d58;
+    font-weight: bold;
+    padding: 6px 6px;
+    outline: none;
+    text-decoration: underline;
+} .tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+    background: #136089;
+    color: #ffffff;
+    text-decoration: none;
+} .tabdiv {
+    margin-top: 6px;
+    background: #f6f6f6;
+    border: 1px solid #dedbd1;
+    width: 805px;
+    padding: 17px 0 17px 17px;
+} .tabdiv ul.ap_aba {
+    border-bottom: 1px #aaaaaa solid;
+    margin: 0;
+    width: 786px;
+    display: block;
+    margin-bottom: 10px;
+} .tabdiv li {
+    display: inline;
+    float: left;
+    margin-left: 79px;
+    font-size: 12px;
+    color: #3b3b3b;
+} .tabdiv li.first_aba {
+    margin-left: 0;
+} .tabdiv li.meio {
+    margin-top: 10px;
+} .tabdiv li.last {
+    margin-top: 2px;
+} .tabdiv li span {
+    font-size: 12px;
+    color: #444444;
+    display: block;
+    float: left;
+    padding-bottom: 10px;
+} .tabdiv li strong {
+    font-size: 12px;
+    color: #3b3b3b;
+} .tabdiv li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+} .tabdiv li a:hover {
+    color: #0b4766;
+    text-decoration: underline;
+} .tabdiv p.info_aba {
+    width: 760px;
+    display: block;
+    font-size: 12px;
+    color: #232323;
+} .tabdiv p.info_aba strong {
+    color: #000000;
+} .ui-tabs-hide {
+    display: none;
+} #featured img.mapa {
+    padding-left: 25px;
+} #featured2 p {
+    font-size: 12px;
+    color: #232323;
+    margin-bottom: 5px;
+    margin-left: 10px;
+} #featured2 ul li {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+} #featured2 ul li img {
+    border: 1px #b9b9b9 solid;
+} #featured3 ul.coment {
+    border-bottom: 1px #aaaaaa solid;
+    margin: 0;
+    width: 786px;
+    display: block;
+    margin-bottom: 10px;
+} .tabdiv3 {
+    margin-top: 6px;
+    background: #f6f6f6;
+    border: 1px solid #dedbd1;
+    width: 805px;
+    padding: 17px 0 17px 17px;
+}
+
+div#featured3 .tabdiv3 ul.coment li {
+    margin: 0;
+    display: block;
+    float: left;
+} #featured3 ul.coment li {
+    display: block;
+    padding-bottom: 8px;
+} #featured3 ul.coment li h4 {
+    font-size: 12px;
+    color: #676767;
+    font-style: italic;
+    font-weight: bold;
+} #featured3 ul.coment li p {
+    font-size: 12px;
+    color: #000000;
+} #featured3 ul.coment li span {
+    font-size: 12px;
+    color: #626262;
+}
+
+div#featured3 h5 {
+    width: 700px;
+    height: 30px;
+    display: block;
+    font-size: 16px;
+    color: #515151;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+div#featured3 h5 span {
+    font-size: 12px;
+    color: #797979;
+}
+
+div#form_esq {
+    width: 290px;
+    height: 195px;
+    display: block;
+    float: left;
+}
+
+div#form_esq p {
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+} .texbox50 {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #6e6d6d;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 275px;
+    height: 20px;
+}
+
+div#form_dir {
+    width: 290px;
+    height: 195px;
+    display: block;
+    float: left;
+    padding-left: 15px;
+}
+
+div#form_dir p {
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+} .texbox60 {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #6e6d6d;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 275px;
+}
+
+div#voltar_pagina2 {
+    width: 824px;
+    height: 40px;
+    display: block;
+    clear: both;
+    margin-top: 15px;
+}
+
+div#voltar_pagina2 a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #136089;
+}
+
+div#voltar_pagina2 a:hover {
+    color: #000000;
+}
+
+div#voltar_pagina2 p {
+    width: 232px;
+    height: 40px;
+    display: block;
+    float: left;
+    line-height: 35px;
+}
+
+div#voltar_pagina2 p.indique {
+    width: 270px;
+    height: 40px;
+    display: block;
+    float: right;
+    background: url(/images/email.jpg) no-repeat left;
+}
+
+div#voltar_pagina2 p.indique a {
+    padding-left: 50px;
+    line-height: 35px;
+}
+
+/* ------------------------------------ FIM ABAS-------------------------------- */
+/* ------------------------------------ INÍCIO LOGIN -------------------------------- */ .top {
+    background-image: url(/images/top2.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+    font-family: Arial, Georgia, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+div#content_login {
+    width: 824px;
+    height: 400px;
+    display: block;
+    clear: both;
+}
+
+div#content_login h2 {
+    font-size: 16px;
+    color: #c2d5df;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+div#barra_processo {
+    width: 824px;
+    height: 56px;
+    display: block;
+    clear: both;
+    padding-top: 21px;
+}
+
+div#login_senha {
+    width: 635px;
+    display: block;
+    margin-top: 28px;
+    padding-left: 40px;
+}
+
+div#login {
+    width: 361px;
+    height: 294px;
+    display: block;
+    float: left;
+    background: url(/images/fundo_login.png) no-repeat right;
+}
+
+div#login h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+div#login p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 10px;
+} .box_login {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #000000;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 290px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+div#login a {
+    font-size: 12px;
+    color: #073851;
+    text-decoration: underline;
+}
+
+div#login a:hover {
+    color: #dc8d06;
+}
+
+div#fazer_cadastro {
+    width: 226px;
+    height: 294px;
+    display: block;
+    float: left;
+    padding-left: 48px;
+}
+
+div#fazer_cadastro h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-left: 13px;
+}
+
+div#fazer_cadastro p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-left: 13px;
+}
+
+/* ------------------------------------ FIM LOGIN -------------------------------- */
+/* ------------------------------------ INÍCIO CADASTRO -------------------------------- */
+div#content_cadastro {
+    width: 824px;
+    display: block;
+    clear: both;
+}
+
+div#content_cadastro h2 {
+    font-size: 16px;
+    color: #c2d5df;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+div#geral_processo {
+    width: 824px;
+    display: block;
+    clear: both;
+    background: #f6f5f5;
+    margin-top: 21px;
+}
+
+div#form_cadastro {
+    width: 622px;
+    display: block;
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+div#form_cadastro p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #c80c0c;
+    padding-bottom: 10px;
+}
+
+/* ------------------------------------ FIM CADASTRO -------------------------------- */
+/* ------------------------------------ INÍCIO ESQUECI MINHA SENHA -------------------------------- */
+div#form_esqueci {
+    width: 824px;
+    display: block;
+    margin-top: 21px;
+}
+
+div#form_esqueci p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+/* ------------------------------------ FIM ESQUECI MINHA SENHA -------------------------------- */
+/* ------------------------------------ INÍCIO DADOS DA RESERVA -------------------------------- */ .dados_resrva {
+    font-size: 18px;
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 10px;
+}
+
+div#dados_hotel {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    border-bottom: solid 1px #c7c6c6;
+}
+
+div#dados_apartamentos {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+}
+
+div.apartamentos_hospedes {
+    width: 250px;
+    border-bottom: solid 1px #c7c6c6;
+    float: left;
+    margin: 0 0 10px 0;
+}
+
+div#apartamentos_hospedes ul li span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+}
+
+div#dados_hotel ul li {
+    margin-top: 8px;
+}
+
+div#dados_hotel ul li.last {
+    padding-bottom: 20px;
+}
+
+div#dados_hotel ul li strong {
+    font-size: 15px;
+    color: #000000;
+}
+
+div#dados_hotel ul li span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+}
+
+div#escolha {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    border-bottom: solid 1px #c7c6c6;
+    clear: both;
+}
+
+div#escolha ul li.last {
+    padding-bottom: 20px;
+}
+
+div#valor_total {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    border-bottom: solid 1px #c7c6c6;
+}
+
+div#valor_total p span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #294560;
+}
+
+div#politicas {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#dados_politica {
+    width: 519px;
+    height: 250px;
+    background: #d7e2ea;
+    display: block;
+    padding-top: 20px;
+    overflow: auto;
+    float: left;
+}
+
+div#dados_politica ul li {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+div#dados_politica ul li.first {
+    margin: 0;
+}
+
+div#dados_politica ul li.last {
+    padding-bottom: 10px;
+}
+
+div#politicas input {
+    margin-top: 20px;
+}
+
+div#politicas input.box {
+    margin-top: 10px;
+}
+
+div#politicas span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b50a0a;
+}
+
+/* ------------------------------------ FIM DADOS DA RESERVA -------------------------------- */
+/* ------------------------------------ INÍCIO PAGAMENTO -------------------------------- */
+div#dados_pagamento {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    border-bottom: solid 1px #c7c6c6;
+}
+
+div#dados_pagamento ul li {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+    margin-top: 5px;
+}
+
+div#dados_pagamento ul li.last {
+    padding-bottom: 20px;
+}
+
+div#condicoes_gerais {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+}
+
+div#condicoes_gerais span.tex {
+    font-size: 12px;
+    color: #223a51;
+    display: block;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+div#condicoes_gerais span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b50a0a;
+}
+
+div#condicoes_gerais input {
+    margin-top: 20px;
+}
+
+div#condicoes_gerais input.box {
+    margin-top: 10px;
+}
+
+/* ------------------------------------ FIM PAGAMENTO -------------------------------- */
+/* ------------------------------------ INÍCIO FINALIZAÇÃO DA RESERVA -------------------------------- */
+div#final_reserva {
+    width: 737px;
+    height: 100px;
+    display: block;
+    border-bottom: solid 1px #c7c6c6;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+div#final_reserva p strong {
+    font-size: 18px;
+    font-weight: bold;
+    color: #223a51;
+    display: block;
+    padding-bottom: 20px;
+}
+
+div#dados_finais {
+    width: 426px;
+    display: block;
+    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+div#dados_finais ul li {
+    margin-top: 8px;
+}
+
+div#dados_finais ul li span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+}
+
+div#dados_finais ul li.total {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9c1314;
+}
+
+div#dados_finais ul li.last {
+    padding-bottom: 50px;
+}
+
+div#publicidade_final {
+    width: 315px;
+    display: block;
+    float: left;
+    padding-top: 20px;
+}
+
+div#publicidade_final span {
+    font-size: 11px;
+    display: block;
+}
+
+/* ---------->>> jtip <<<---------------------------------------------------------------*/ #JT_arrow_left {
+    background-image: url(/images/arrow_left.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: absolute;
+    z-index: 101;
+    left: -12px;
+    height: 23px;
+    width: 11px;
+    margin-top: -7px;
+} #JT_arrow_right {
+    background-image: url(/images/arrow_right.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: absolute;
+    z-index: 101;
+    height: 23px;
+    width: 11px;
+    margin-top: -7px;
+} #JT {
+    position: absolute;
+    z-index: 100;
+    border: 1px solid #666666;
+    background-color: #fff;
+    margin-left: -6px;
+    margin-top: 5px;
+    /*Transparency*/
+    filter: alpha( opacity = 80);
+
+opacity:
+    0.8;
+
+-moz-opacity:
+    0.8
+}
+
+label.error {
+    border: 1px solid #666666;
+    background-color: #fff;
+    /*Transparency*/
+    filter: alpha( opacity = 80);
+
+opacity:
+    0.8;
+
+-moz-opacity:
+    0.8;
+
+width:
+    11px;
+
+color:red;
+
+font-size:
+    11px;
+
+padding:
+    0 4px 4px 4px;
+
+margin-left:
+    4px;
+
+visibility:hidden;
+} #JT_copy {
+    padding: 0 4px 4px 4px;
+    color: #333333;
+    font-size: 11px;
+    margin-top: -10px;
+} .JT_loader {
+    background-image: url(/images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 12px;
+} #JT_close_left {
+    background-color: #CCCCCC;
+    text-align: left;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-weight: bold;
+} #JT_close_right {
+    background-color: #CCCCCC;
+    text-align: left;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-weight: bold;
+} #JT_copy p {
+    margin: 0;
+} #JT_copy img {
+    padding: 1px;
+    border: 1px solid #CCCCCC;
+} .jTip {
+}
+
+/* ---------->>> jtip <<<---------------------------------------------------------------*/
+/********* teste retirar ***********/
+input.error {
+    border-color: red;
+} .simple_box {
+    width: 230px;
+    padding: 10px;
+    background-color: #D9E6F7;
+    border: 2px solid blue;
+}
+
+/********* teste retirar ***********/
+

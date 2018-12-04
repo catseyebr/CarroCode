@@ -1,0 +1,44 @@
+#home #boxes { padding: 23px 0 40px; background: #eeeeee url(/images/layum/home_boxes_bg.gif) bottom left repeat-x; }
+#home #boxes .box { position: relative; float: left; width: 243px; height: 358px; margin-left: 38px; border: 1px solid #d1d1d1; background-color: #dfdfdf; }
+#home #boxes .box .top-curve { position: absolute; top: -1px; left: -1px; width: 245px; height: 21px; z-index: 2; background: url(/images/layum/boxes_box_top_bg.gif) top left no-repeat; }
+#home #boxes .box .bot-curve { position: absolute; bottom: -1px; left: -1px; width: 245px; height: 21px; z-index: 2; background: url(/images/layum/boxes_box_bot_bg.gif) bottom left no-repeat; }
+#home #boxes .box img { width: 244px; height: 164px; }
+#home #boxes .box .content { padding: 20px 20px 0; text-align: justify; color: #414141; }
+#home #boxes .box .content h4 { font-size: 1em; text-transform: uppercase; margin-bottom: 15px; text-align: left; }
+#home #boxes .box .link { margin-top: 13px; text-align: right; }
+#home #boxes .box .link a { color: #414141; }
+
+#home #boxes .box.box1 h4 { color: #3d61b5; }
+#home #boxes .box.box2 h4 { color: #e78200; }
+#home #boxes .box.box3 h4 { color: #13a5ae; }
+
+* html #home #boxes .box { margin-left: 19px; }
+
+#home #pagecloud { background: url(/images/layum/division_bg.gif) bottom left repeat-x; padding: 30px 20px; text-align: center; }
+#home #pagecloud li { display: inline; padding: 0 2px; }
+#home #pagecloud a { font-family: Trebuchet, Arial, Sans-Serif; text-decoration: none; color: #3943cc; }
+#home #pagecloud a:hover { text-decoration: underline; }
+
+#home #link-row { background: url(/images/layum/division_bg.gif) bottom left repeat-x; padding: 20px; height: 330px; } 
+#home #link-row .box { height: 100%; position: relative; float: left; }
+#home #link-row .box h5 { position: absolute; top: 0; left: 0; background: red; width: 15px; height: 50px; text-indent: -999em; overflow: hidden; }
+#home #link-row .box ul { height: 100%; margin-left: 15px; border-left: 1px solid #b2b2b2; padding-left: 10px; }
+#home #link-row .box ul li a { line-height: 15px; font-size: .9em; color: #4c4c4c; text-decoration: none; }
+#home #link-row .box ul li a:hover { text-decoration: underline; }
+
+#home #link-row .box.carro-aeroporto { width: 300px; }
+#home #link-row .box.carro-aeroporto h5 { width: 25px; height: 174px; background: url(/images/layum/linkrow_box_carro-aeroporto_tit.gif) top left no-repeat; }
+#home #link-row .box.carro-aeroporto ul { margin-left: 25px; }
+
+
+#home #link-row .box.carro-cidade { width: 155px; }
+#home #link-row .box.carro-cidade h5 { width: 12px; height: 212px; background: url(/images/layum/linkrow_box_carro-cidades_tit.gif) top left no-repeat; }
+#home #link-row .box.carro-cidade ul { margin-left: 12px; }
+
+#home #link-row .box.carro-parceladas { width: 185px; }
+#home #link-row .box.carro-parceladas h5 { width: 14px; height: 212px; background: url(/images/layum/linkrow_box_carro-parceladas_tit.gif) top left no-repeat; }
+#home #link-row .box.carro-parceladas ul { margin-left: 14px; }
+
+#home #link-row .box.layum { width: 185px; }
+#home #link-row .box.layum h5 { width: 12px; height: 212px; background: url(/images/layum/linkrow_box_layum_tit.gif) top left no-repeat; }
+#home #link-row .box.layum ul { margin-left: 12px; }

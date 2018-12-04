@@ -1,0 +1,92 @@
+#finalizacao form { padding: 15px 25px 20px; }
+#finalizacao form fieldset { position: relative; margin-bottom: 15px; }
+#finalizacao form fieldset .cont { position: relative; z-index: 3; }
+#finalizacao form fieldset .cont h3 { margin: 20px 20px 15px; font-size: 1.4em; }
+#finalizacao form fieldset .cont h4 { padding: 3px 20px; background: #4d6cb5; font-size: 1.3em; color: #ffffff; }
+#finalizacao form fieldset .cont .subcont { padding: 10px 20px; }
+
+#finalizacao form fieldset #dados_cliente dl { width: 100%; height: 90px; line-height: 16px; }
+#finalizacao form fieldset #dados_cliente dl dt { float: left; width: 10%; font-weight: bold; }
+#finalizacao form fieldset #dados_cliente dl dd { float: left; width: 40%; }
+#finalizacao form fieldset #dados_cliente dl dt.nl { clear: left; }
+
+#finalizacao form fieldset .condutores ul { margin-bottom: 15px; }
+#finalizacao form fieldset .condutores ul li { margin-bottom: 8px; }
+#finalizacao form fieldset .condutores ul input { vertical-align: middle; }
+#finalizacao form fieldset .condutores button { display: inline-block; width: 171px; height: 41px; margin-right: 30px; border: 0 none; background: center center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+#finalizacao form fieldset .condutores button.cadastrar { background-image: url(/images/layum/btn_cadastrar_azul.png);  } 
+#finalizacao form fieldset .condutores button.inserir { background-image: url(/images/layum/btn_inserir_azul.png);  } 
+#finalizacao form fieldset .condutores button.cancelar { background-image: url(/images/layum/btn_cancelar_azul.png);  }
+#finalizacao form fieldset .condutores .novo { height: 45px; margin-top: 20px; }
+#finalizacao form fieldset .condutores .novo p { float: left; margin-right: 20px; }
+#finalizacao form fieldset .condutores .novo label { display: none; }
+#finalizacao form fieldset .condutores .novo input { padding: 3px; font-size: 1em; }
+#finalizacao form fieldset .condutores .novo input.def { height: 45px; margin-top: 15px; color: #b5b5b5; }
+
+#finalizacao form fieldset #info_voo { line-height: 16px; font-size: 1.1em; }
+#finalizacao form fieldset #info_voo label { font-weight: bold; }
+#finalizacao form fieldset #info_voo #nao_voo_cont { margin: 10px 0; }
+#finalizacao form fieldset #info_voo #nao_voo_cont input { vertical-align: middle; }
+#finalizacao form fieldset #info_voo ul { height: 40px; }
+#finalizacao form fieldset #info_voo ul li { float: left; margin: 0 20px 10px 0; }
+#finalizacao form fieldset #info_voo input { padding: 3px; font-size: 1em; }
+
+#finalizacao form fieldset #dados_gerais #geral-valores { float: left; width: 260px; height: 80px; font-size: 1.1em; line-height: 20px; margin-bottom: 10px; }
+#finalizacao form fieldset #dados_gerais #geral-valores dt { clear: left; float: left; width: 50%; font-weight: bold; }
+#finalizacao form fieldset #dados_gerais #geral-valores dd { float: left; width: 50%; }
+
+#finalizacao form fieldset #dados_gerais #geral-dir { float: left; line-height: 20px; font-size: 1.1em; }
+#finalizacao form fieldset #dados_gerais #geral-dir p img { display: inline-block; vertical-align: middle; }
+#finalizacao form fieldset #dados_gerais #geral-dir p span { font-size: 1.091em; font-weight: bold; }
+
+#finalizacao form fieldset #veiculo dl { float: left; width: 300px; font-size: 1.1em; line-height: 17px; }
+#finalizacao form fieldset #veiculo dl dt { clear: left; float: left; width: 55%; font-weight: bold; }
+#finalizacao form fieldset #veiculo dl dd { float: left; width: 45%; }
+#finalizacao form fieldset #veiculo img { float: left; width: 100px; height: 100px; border: 1px solid red; }
+#finalizacao form fieldset #veiculo ul { float: right; width: 255px; }
+
+#finalizacao form fieldset #veiculo ul li { float: left; width: 36px; height: 20px; margin: 0 10px 10px 0; padding-top: 40px; background: top center no-repeat; text-transform: uppercase; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: .9em; }
+#finalizacao form fieldset #veiculo ul li.duas_portas { background-image: url(/images/carro_icons/2_portas_36.png); }
+#finalizacao form fieldset #veiculo ul li.quatro_portas { background-image: url(/images/carro_icons/4_portas_36.png); }
+#finalizacao form fieldset #veiculo ul li.ar_condicionado { background-image: url(/images/carro_icons/ar_cond_36.png); }
+#finalizacao form fieldset #veiculo ul li.cambio_automatico { background-image: url(/images/carro_icons/camb_auto_36.png); }
+#finalizacao form fieldset #veiculo ul li.cambio_manual { background-image: url(/images/carro_icons/camb_manual_36.png); }
+#finalizacao form fieldset #veiculo ul li.capacidade { width: 44px; background-image: url(/images/carro_icons/capacidade_36.png); }
+#finalizacao form fieldset #veiculo ul li.cd_player { background-image: url(/images/carro_icons/cd_36.png); }
+#finalizacao form fieldset #veiculo ul li.dir_hidraulica { background-image: url(/images/carro_icons/dir_hidr_36.png); }
+#finalizacao form fieldset #veiculo ul li.km_livre { background-image: url(/images/carro_icons/km_free_36.png); }
+#finalizacao form fieldset #veiculo ul li.mala_grande { width: 48px; background-image: url(/images/carro_icons/mala_gde_36.png); }
+#finalizacao form fieldset #veiculo ul li.mala_pequena { width: 53px; background-image: url(/images/carro_icons/mala_pqe_36.png); }
+#finalizacao form fieldset #veiculo ul li.motor { background-image: url(/images/carro_icons/motor_36.png); }
+#finalizacao form fieldset #veiculo ul li.promocional { width: 54px; background-image: url(/images/carro_icons/promocional_36.png); }
+#finalizacao form fieldset #veiculo ul li.trio_eletrico { width: 50px; background-image: url(/images/carro_icons/trio_36.png); }
+
+#finalizacao form fieldset #locais { line-height: 18px; font-size: 1.1em; }
+#finalizacao form fieldset #locais p.devolucao { margin-top: 15px; }
+
+#finalizacao form fieldset #protecao { line-height: 18px; font-size: 1.1em; }
+
+#finalizacao form fieldset #opcionais { margin-bottom: 15px; line-height: 18px; font-size: 1.1em; }
+
+#finalizacao form fieldset #importante ol { padding-left: 20px; list-style: decimal inside; color: #157c88; text-indent: -20px; line-height: 18px; font-size: 1.1em; }
+#finalizacao form fieldset #importante ol li { margin-bottom: 10px; }
+#finalizacao form fieldset #importante ol li span { color: #333333; }
+
+#finalizacao form fieldset #termos { position: relative; margin: 10px 20px; padding: 0; }
+#finalizacao form fieldset #termos .corner { z-index: 9; }
+#finalizacao form fieldset #termos .subsubcont { position: relative; z-index: 10; }
+
+#finalizacao form fieldset #termos .subsubcont { padding: 20px; }
+#finalizacao form fieldset #termos .subsubcont .text { height: 160px; overflow-y: scroll; font-size: 1.1em; line-height: 16px; }
+#finalizacao form fieldset #termos .subsubcont .text h5 { font-size: 1em; margin: 10px 0; }
+#finalizacao form fieldset #termos .subsubcont .text ol { list-style: decimal inside; }
+#finalizacao form fieldset #termos .subsubcont .text ol li { margin-bottom: 5px; padding-left: 20px; text-indent: -20px; }
+#finalizacao form fieldset #termos .subsubcont .text ol ol { list-style-type: lower-alpha; }
+
+#finalizacao form fieldset #aceitar_termos { padding-left: 20px; line-height: 17px; font-size: 1.1em; font-weight: bold; }
+#finalizacao form fieldset #aceitar_termos input { vertical-align: middle; }
+
+#finalizacao form fieldset #botoes { width: 392px; margin: 40px auto; }
+#finalizacao form fieldset #botoes button { display: inline-block; width: 174px; height: 43px; border: 0 none; text-indent: -999em; overflow: hidden; background: center center no-repeat; cursor: pointer; }
+#finalizacao form fieldset #botoes #retornar { margin-right: 40px; background-image: url(/images/layum/cotacao_btn_retornar.png); }
+#finalizacao form fieldset #botoes #reservar { background-image: url(/images/layum/cotacao_btn_reservar.png); }

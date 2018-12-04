@@ -1,0 +1,31 @@
+#acesso h1 { font-size: 1.4em; margin: 30px 0 0 28px; }
+#acesso p.info { font-size: 1.1em; margin-left: 28px; }
+
+#acesso form { padding: 25px 0 40px; color: #333333; }
+#acesso form .box { float: left; width: 264px; height: 284px; background: #ededed url(/images/layum/acesso-login_box_bot.png) bottom left no-repeat; }
+#acesso form .box h3 { height: 40px; margin-bottom: 15px; background: url(/images/layum/acesso-login_box_top.png) top left no-repeat; color: #ffffff; text-align: center; line-height: 38px; font-size: 2em; }
+#acesso form .box button { display: block; width: 126px; height: 32px; margin: 0 auto; border: 0 none; background: center center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+
+#acesso form.tres_colunas .box { margin-right: 28px; }
+#acesso form.tres_colunas #acesso-login { margin-left: 28px; }
+
+#acesso form.duas_colunas .box { margin-right: 115px; }
+#acesso form.duas_colunas #acesso-login { margin-left: 115px; }
+
+#acesso form #acesso-login ul { padding: 20px 20px 0; font-size: 1.1em; }
+#acesso form #acesso-login ul li { margin-bottom: 20px; }
+#acesso form #acesso-login ul label { display: block; margin-bottom: 3px; font-weight: bold; }
+#acesso form #acesso-login ul input { display: block; }
+#acesso form #acesso-login p.esqueci { margin: -15px 0 38px 20px; }
+#acesso form #acesso-login p.esqueci a { color: #333333; }
+#acesso form #acesso-login button { background-image: url(/images/layum/btn_acessar.png); }
+
+#acesso form #cadastrar p { margin: 75px 0; text-align: center; font-size: 1.1em; font-weight: bold; } 
+#acesso form #cadastrar button { background-image: url(/images/layum/btn_cadastrar.png); }
+
+#acesso form #acesso-reserva { position: relative; width: 232px; background-color: #e5e5e5; background-image: url(/images/layum/acesso-login-reserva_box_bot.png); }
+#acesso form #acesso-reserva h3 { background-image: url(/images/layum/acesso-login-reserva_box_top.png); }
+#acesso form #acesso-reserva dl { width: 100%; line-height: 16px; }
+#acesso form #acesso-reserva dl dt { clear: left; float: left; width: 43%; padding-left: 7%; font-weight: bold; }
+#acesso form #acesso-reserva dl dd { float: left; width: 43%; padding-right: 7%; }
+#acesso form #acesso-reserva button { position: absolute; bottom: 36px; left: 50%; margin-left: -63px; background-image: url(/images/layum/btn_refazer.png); }

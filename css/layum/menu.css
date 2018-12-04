@@ -1,0 +1,47 @@
+#menu { position: relative; z-index: 3; height: 62px; background: url(/images/layum/menu_1_bg.gif) top left repeat-x; }
+#menu #menu-esq { position: absolute; left: -16px; top: 0; z-index: 9; width: 16px; height: 46px; background: url(/images/layum/menu_1_left_bg.gif) top left no-repeat; }
+#menu #menu-dir { position: absolute; right: -16px; top: 0; z-index: 9; width: 16px; height: 46px; background: url(/images/layum/menu_1_right_bg.gif) top left no-repeat; }
+
+#menu #menu-hover { display: none; position: absolute; z-index: 10; width: 100px; height: 38px; }
+#menu #menu-hover div { position: absolute; width: 51%; height: 100%; background: url(/images/layum/menu_1_hover.gif) top no-repeat; }
+#menu #menu-hover #menu-hover-esq { top: 0; left: 0; background-position: left; }
+#menu #menu-hover #menu-hover-dir { top: 0; right: 0; background-position: right; }
+
+#menu ul .nivel1 { position: absolute; z-index: 10; height: 38px; float: left; line-height: 38px; text-align: center; }
+#menu ul .nivel1 a { display: block; text-decoration: none; color: #000000; }
+#menu ul .nivel1.active a { font-weight: bold; color: #FFFFFF; }
+
+#menu ul .nivel1 .nivel2_parent { display: none; float: left; height: 23px; padding-left: 16px; background: url(/images/layum/menu_2_left_bg.gif) top left no-repeat; }
+#menu ul .nivel1 .nivel2_parent ul { height: 23px; padding-right: 16px; background: url(/images/layum/menu_2_right_bg.gif) top right no-repeat; }
+#menu ul .nivel1 .nivel2_parent ul .nivel2 { float: left; line-height: 23px; height: 23px; padding: 0 6px; }
+#menu ul .nivel1 .nivel2_parent ul .nivel2 a { color: #FFFFFF; font-weight: normal; }
+#menu ul .nivel1 .nivel2_parent ul .nivel2.active { background: url(/images/layum/menu_2_hover.gif) top left repeat-x; }
+#menu ul .nivel1.active .nivel2_parent ul .nivel2 a { font-weight: normal; }
+ 
+#menu ul .nivel1 .nivel2_parent ul .nivel2 .nivel3_parent { display: none; position: absolute; height: auto; margin-left: -6px; padding-left: 11px; background: url(/images/layum/menu_3_left_bg.gif) bottom left no-repeat; }
+#menu ul .nivel1 .nivel2_parent ul .nivel2 .nivel3_parent ul { height: auto; line-height: auto; padding: 0 11px 11px 0; background: url(/images/layum/menu_3_right_bg.gif) bottom right no-repeat; }
+#menu ul .nivel1 .nivel2_parent ul .nivel2 .nivel3_parent ul li { height: 25px; width: auto; white-space: nowrap; }
+#menu ul .nivel1 .nivel2_parent ul .nivel2 .nivel3_parent ul a { display: block; height: 100%; width: 100%; position: relative; color: #535353; }
+#menu ul .nivel1 .nivel2_parent ul .nivel2 .nivel3_parent ul a:hover { text-decoration: underline; }
+
+/* IE6 */
+* html #menu ul .nivel1 .nivel2_parent {  position: relative; left: 0; }
+/* calculo de dimensões errado no IE6 */
+* html #menu ul .nivel1 .nivel2_parent ul .nivel2 .nivel3_parent ul li { width: 1%; }
+* html #menu ul .nivel1 .nivel2_parent ul .nivel2 .nivel3_parent { position: relative; width: 1%; margin-right: -1%; }
+ 
+
+#menu ul .nivel1.principal { width: 105px; left: 0; }
+#menu ul .nivel1.hoteis    { width: 136px; left: 121px; }
+#menu ul .nivel1.carros    { width: 142px; left: 273px; }
+#menu ul .nivel1.aereo     { width: 117px; left: 431px; }
+#menu ul .nivel1.vistos    { width: 134px; left: 581px; }
+#menu ul .nivel1.cruzeiro  { width: 164px; left: 715px; }
+
+#menu ul .nivel1 .nivel2_parent.principal { margin-left: 10px; width: 480px; }
+#menu ul .nivel1 .nivel2_parent.hoteis { margin-left: -2px; width: 368px; }
+#menu ul .nivel1 .nivel2_parent.carros { margin-left: 0; width: 75px; }
+#menu ul .nivel1 .nivel2_parent.vistos { margin-left: -325px; width: 586px; }
+
+/* duplicação de margem no IE6 */
+* html #menu ul .nivel1 .nivel2_parent.principal { margin-left: 5px; }

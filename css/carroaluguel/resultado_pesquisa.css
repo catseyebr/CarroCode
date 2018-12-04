@@ -1,0 +1,53 @@
+div#full_page{
+    display: none;
+    }
+
+div#preloader{
+	width: 100%;
+	height: 100%;	
+	position:absolute;
+}
+
+div#inner_pre{    
+	position:relative;                        
+    z-index:1000;
+    width: 200px; 
+	height: 38px;
+	top: 50%;
+	left: 50%;
+	padding: 10px 0px 0px 40px;
+	margin-top: -17px;
+	margin-left: -100px;
+	background: url(/images/carroaluguel/ajax-loader.gif) no-repeat;
+    cursor: wait;
+    text-shadow: 0px 1px 0px #fefefe;   
+}
+div#abas_pesquisa_comparacao  { width:850px; background: url(http://www.carroaluguel.com/images/bg_abas_comparacao_a.jpg) no-repeat;}
+div#geral_detalhes_comparacao { width: 848px; margin-left: 0; }
+div#container_blocos  { width:832px; }
+.marca_cima2 ul li { width:119px; }
+.preco_compativo ul { padding: 5px 0; width: 110px; }
+ #resultados_pesquisa_comparacao { position: relative; overflow: hidden; width: 830px;}
+ .topo_locadoras2 { position: relative; }
+ 
+ .show_categorias { background: #FFFFFF; position: absolute; height: 73px; width: 109px; z-index: 100; }
+ .show_categorias img {  margin: 19px 0 0 24px; }
+ .show_categorias.cima { top: 0; left: 0; }
+ .show_categorias.baixo { bottom: 0; left: 0; }
+ 
+ .numeracao_comparacao2 { margin-left: 110px; position: relative; width: 2500px; }
+ .numeracao_comparacao2 ul li { width: 119px; }
+ .marca_cima2 { margin-left: 110px; position: relative; width: 20000px;}
+ .preco_compativo { width: 119px; }
+  .categorias_precos { left: 1px; }  
+  html /**/>/**/ body .categorias_precos { left: auto; }
+ 
+ .container_precos2 { position: relative; }
+ .categorias_precos { position: absolute; z-index: 100; }
+ .sub_container_precos2 { position: relative; margin-left: 109px; }
+ .sub_container_precos2 { height: 102px; }
+ 
+ .inativo {display: none !important;}
+ 
+ .destaque { border-top: 2px solid #FBE88D; border-bottom: 2px solid #FBE88D; }
+ .destaque .categorias_precos { background: #FBE88D; }

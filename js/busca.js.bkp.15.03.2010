@@ -1,0 +1,110 @@
+/** função a ser chamada no $(document).ready para buscas **/
+function loadBusca () {
+  /** autocomplete para cidade **/
+  $("#autocompletecidade").autocomplete("jscom/cidades", {
+    formatMatch: function(row, i, max) {
+      return row.name + " " + row.to;  
+    },
+    minChars:1,
+    matchSubset:0,
+    matchContains:0,
+    cacheLength:100,
+    formatItem:formatItem,
+    selectOnly:0 
+  });
+  
+  /** autocomplete para hotel **/
+  $("#autocompletehotel").autocomplete("jscom/hoteis", {
+    formatMatch: function(row, i, max) {
+      return row.name + " " + row.to;  
+    },
+    minChars:1,
+    matchSubset:0,
+    matchContains:0,
+    cacheLength:100,
+    formatItem:formatItem,
+    selectOnly:0 
+  });
+  
+  /** seleção de modelo de busca (cidade|hotel) **/
+  $('.pesquisar').click(function () {
+    if ($(this).val() == 'c') {
+      $("#autocompletecidade").show();
+      $("#autocompletehotel").hide();
+    } else {
+      $("#autocompletecidade").hide();
+      $("#autocompletehotel").show();
+    }
+  });
+  /** necessário para evitar bug na busca **/
+  $('#busca_cidade').click();
+  
+  /** calendário de seleção de data inicial **/
+  $('#retiradaini').datepicker({
+      minDate: 0,
+      onClose: setMinDate1,
+      numberOfMonths: 2,
+      buttonImage : '/images/calendario.jpg',
+      showOn: 'both',
+      buttonImageOnly: true
+  });
+
+  /** calendário de seleção de data final **/
+  $('#retiradafim').datepicker({
+      minDate: 0,
+      onClose: setMinDate2,
+      numberOfMonths: 2,
+      buttonImage : '/images/calendario.jpg',
+      showOn: 'both',
+      buttonImageOnly: true
+  });
+   
+  /** link para adicionar mais campos de seleção de tipo de apartamento **/
+  $('#mais_ap').click(function(){
+    var div = $('#seleciona_quantidade').children(':last');
+    var html = div.html();
+    var num = parseInt(div.attr('class').replace(/item_([0-9]+)/, '$1')) + 1;
+    html = html.replace(/(quantidade_apartamentos|tipo_apartamento)_[0-9]/gi,'$1_' + num);
+    div.after('<div class="item_' + num + '">' + html + '</div>');
+    return false;
+  });
+  
+  /** link para reduzir campos de seleção de tipo de apartamento **/
+  $('#menos_ap').click(function(){
+    var div = $('#seleciona_quantidade').children(':last');
+    var num = parseInt(div.attr('class').replace(/item_([0-9]+)/, '$1')) - 1;
+    if (num > 0) {
+      div.remove();
+    }
+    return false;
+  });
+}
+
+/* callback do autocomplete */
+function formatResult(row) {
+  return row[0].replace(/(<.+?>)/gi, '');
+}
+
+/* callback do autocomplete */
+function formatItem(row) {
+	return "<div>"+row[0]+"</div>";
+}
+
+/* callback do datepicker para data mínima em data inicial  */
+function setMinDate1(date){
+  data = date.split('/');
+  if($('#retiradafim').val() == 'Data de Saída') {
+    $('#retiradafim').val('');
+  }
+  if (($('#retiradafim').val() == '') && date != '') {
+    $('#retiradafim').val(AvancaDias(1, parseInt(data[0]), parseInt(data[1]), parseInt(data[2])));
+  }
+  $('#retiradafim').datepicker('option', 'minDate', $('#retiradaini').datepicker('getDate'));
+}
+
+/* callback do datepicker para data mínima em data final */
+function setMinDate2(date){
+   if (date) {
+    $('#retiradaini').datepicker('option', 'maxDate', $('#retiradafim').datepicker('getDate'));
+  }
+}

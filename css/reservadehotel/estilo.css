@@ -1,0 +1,1114 @@
+/** -------------------------     ELEMENTOS GERAL       ------------------------- **/
+
+*, html { margin: 0; padding: 0; border: 0; }
+body { font: 12px Arial, Georgia, Verdana, Helvetica, sans-serif; }
+ul li,
+ol li { list-style: none; }
+a { outline: none; }
+
+/** -------------------------     CLASSES GERAL       ------------------------- **/
+  .foto_hotel { width: 130px; height: 130px; display: block; float: left; }
+  .foto_hotel img { border: 1px solid #5d96b5; }
+  .foto_hotel h4 { width: 130px; height: 23px; display: block; background: url(/images/reservadehotel/reservadehotel/fundo_coment.gif) no-repeat left; }
+  .foto_hotel h4 a { font-size: 11px; color: #686868; font-weight: bold; padding-left: 35px; line-height: 25px; }
+  .foto_hotel h4 a:hover { color: #000000; }
+  
+  .foto_apartamento { width: 130px; height: 130px; display: block; float: left; }
+  .foto_apartamento img { border: 1px solid #5d96b5; }
+  .foto_apartamento h4 { width: 130px; height: 23px; display: block; background: url(/images/reservadehotel/fundo_coment.gif) no-repeat left; }
+  .foto_apartamento h4 a { font-size: 11px; color: #686868; font-weight: bold; padding-left: 35px; line-height: 25px; }
+  .foto_apartamento h4 a:hover { color: #000000; }
+       
+  .info_hotel { width: 515px; margin-right: 15px; display: block; float: left; padding-left: 22px; }
+  .info_hotel ul { margin-bottom: 15px; }
+  .info_hotel ul li { font-size: 12px; color: #000000; line-height: 20px; }
+  .info_hotel ul li a { font-size: 16px; color: #000000; font-weight: bold; text-decoration: none; }
+  .info_hotel ul li a.mapa { float: left; width: 87px; height: 34px; background: url(/images/reservadehotel/bt_mapa.gif) no-repeat; text-indent: -999em; overflow: hidden; }
+  .info_hotel ul li a:hover { color: #136089; text-decoration: underline; }
+  .info_hotel ul li strong { font-size: 12px; color: #136089; }
+  .info_hotel ul li span { font-size: 16px; }
+      
+      .info_hotel ul li.apartamentos p.categoria  { padding-top: 10px; }
+      .info_hotel ul li.apartamentos p.categoria a { font-size: 15px; font-weight: normal; }
+      .info_hotel ul li.apartamentos div.aptos_tipo { border: 2px solid #ecad3f; padding: 0 10px; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div { border-top: 1px solid #ecad3f; padding: 3px 0; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div.first { border-top: 0 none; } 
+      .info_hotel ul li.apartamentos div.aptos_tipo div p.diaria { float: left; padding-left: 30px; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div p.diaria a { font-size: 12px; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div p.nome { width: 210px; float: left; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div p.nome a { font-size: 12px; font-weight: normal; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div div.precos_diarias { clear: both; border: 0 none; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div div.inativo { display: none; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div div.precos_diarias div { width: 100%; border-top: 1px solid #ECAD3F; }
+      .info_hotel ul li.apartamentos div.aptos_tipo div div.precos_diarias div.first { border: 0 none; }
+      
+        .info_hotel ul li.apartamentos div.aptos_tipo div table th,
+        .info_hotel ul li.apartamentos div.aptos_tipo div table td { width: 73px; border-left: 1px solid #ECAD3F; }
+        .info_hotel ul li.apartamentos div.aptos_tipo div table th.first,
+        .info_hotel ul li.apartamentos div.aptos_tipo div table td.first { border-left: 0 none; }
+  
+  .preco_hotel { width: 142px; float: left; font-size: 12px; color: #136089; font-weight: bold; }
+  .preco_hotel strong { font-size: 29px; color: #073953; }
+  .preco_hotel span { font-size: 16px; color: #073953; }
+  .preco_hotel button { display: block; width: 116px; height: 33px; background: url(/images/reservadehotel/bt_reservar.gif) no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+  
+  .preco_apartamento { width: 142px; float: left; font-size: 12px; color: #136089; font-weight: bold; }
+  .preco_apartamento strong { font-size: 29px; color: #073953; }
+  .preco_apartamento span { font-size: 16px; color: #073953; }
+  .preco_apartamento button { display: block; width: 116px; height: 33px; background: url(/images/reservadehotel/bt_reservar.gif) no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+      
+  .paginacao { width: 824px; height: 20px; display: block; clear: both; margin-top: 15px; }
+  .paginacao ul li { width: 15px; height: 20px; background-color: #d6d6d6; display: inline; float: left; margin-left: 5px; font-size: 14px; font-weight: bold; color: #000000; padding-left: 6px; }
+  .paginacao ul li a { font-size: 14px; font-weight: bold; color: #136089; width: 15px; height: 20px; display: block; }
+  .paginacao ul li a:hover { color: #000000; }
+  .paginacao ul li.last { background: none; }
+
+  /** -------------------------     TABS       ------------------------- **/
+  .widget { width: 824px; margin-top: 20px; margin-bottom: 15px; display: block; }
+  .widget a { color: #222; text-decoration: none; }
+  .widget a:hover { color: #009; text-decoration: underline; }
+  .tabnav li { display: inline; list-style: none; padding-right: 5px; }
+  .tabnav li a { text-decoration: none; text-transform: uppercase; color: #083d58; font-weight: bold; padding: 6px 6px; outline: none; text-decoration: underline; }
+  .tabnav li a:hover,
+  .tabnav li a:active,
+  .tabnav li.ui-tabs-selected a { background: #136089; color: #ffffff; text-decoration: none; }
+  .tabdiv { margin-top: 6px; background: #f6f6f6; border: 1px solid #dedbd1; width: 805px; padding: 17px 0 17px 17px; }
+  .tabdiv ul.ap_aba { border-bottom: 1px #aaaaaa solid; margin: 0; width: 786px; display: block; margin-bottom: 10px; }
+  .tabdiv li { display: inline; float: left; margin-left: 79px; font-size: 12px; color: #3b3b3b; }
+  .tabdiv li.first_aba { margin-left: 0; }
+  .tabdiv li.meio { margin-top: 10px; }
+  .tabdiv li.last { margin-top: 2px; }
+  .tabdiv li span { font-size: 12px; color: #444444; display: block; float: left; padding-bottom: 10px; }
+  .tabdiv li strong { font-size: 12px; color: #3b3b3b; }
+  .tabdiv li a { font-size: 16px; font-weight: bold; color: #000000; }
+  .tabdiv li a:hover { color: #0b4766; text-decoration: underline; }
+  .tabdiv p.informacoes_aba { width: 760px; display: block; font-size: 12px; color: #232323; }
+  .tabdiv p.informacoes_aba strong { color: #000000; }
+  .ui-tabs-hide { display: none; }
+
+  /* contendo float */
+  .contemfloat:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+  .contemfloat { display: inline-block; }
+  /* Hides from IE-mac \*/
+  * .contemfloat { height: 1%; }
+  .contemfloat { display: block; }
+  /* End hide from IE-mac */
+
+
+/** -------------------------     FORMULARIO GERAL       ------------------------- **/
+
+select { height: 24px; border: 1px solid #b1cddb; background-color: #ffffff; color: #6e6d6d; font-size: 12px; vertical-align: top; }
+.texbox { height: 20px; padding: 3px 0 0 3px; border: 1px solid #b1cddb; background-color: #ffffff; color: #6e6d6d; font-size: 12px; vertical-align: top; }
+
+/** -------------------------     TOPO       ------------------------- **/
+
+#topo { background: #13628b url(/images/reservadehotel/bg_topo.jpg) top left repeat-x; }
+  
+  #topo div.cont { margin: 0 auto; width: 824px; height: 68px; border-bottom: 1px dashed #608091; }
+
+    #topo #menun_cima { width: 400px; height: 64px; float: left; }
+    #topo #menun_cima ul { margin-top: 10px; }
+    #topo #menun_cima ul li { float: left; margin-top: 17px; padding: 0 10px; border-right: 1px solid #ffffff; }
+    #topo #menun_cima ul li.first { padding-left: 0px; }
+    #topo #menun_cima ul li.last { border-right: none; }
+    #topo #menun_cima ul li a { font-size: 11px; color: #ffffff; text-decoration: none; }
+    #topo #menun_cima ul li a:hover { color: #fbcc6f; text-decoration: underline; }
+    
+    #topo #atendimento { width: 65px; height: 34px; display: block; float: right; margin-top: 17px; }
+    
+    #topo #usuario-logado { color:#FFFFFF; float: right; font-weight: bold; margin-right: 40px; margin-top: 49px; }
+    #topo #usuario-logado a { margin-left: 5px; color: #CACACA; }
+  
+  #topo #topo_logo { margin: 0 auto; width: 824px; height: 87px; padding-bottom: 25px; }
+  #topo #topo_logo h1 { float: left; width: 253px; height: 70px; margin-top: 17px; background: url(/images/reservadehotel/logomarca.jpg) no-repeat; text-indent: -9000px; overflow: hidden; }
+  #topo #topo_logo h1 a { display: block; }
+  
+    #topo #topo_logo #menu { width: 550px; height: 45px; float: right; margin-top: 28px; background: url(/images/reservadehotel/fundo_menu_right.jpg) top right no-repeat; }
+    #topo #topo_logo #menu ul { float: left; width: 100%; height: 45px; background: url(/images/reservadehotel/fundo_menu_left.jpg) top left no-repeat; }
+    #topo #topo_logo #menu ul li { float: left; width: 20%; height: 28px; margin-right: -1px; padding-top: 17px; border-right: 1px solid #edba5e; text-align: center; }
+    #topo #topo_logo #menu ul li.last { margin-left: 0; border: 0 none; }
+    #topo #topo_logo #menu ul li a { font-size: 14px; color: #ffffff; font-weight: bold; text-decoration: none; }
+    #topo #topo_logo #menu ul li a:hover { color: #06364f; text-decoration: underline; }
+
+/** -------------------------     BUSCA       ------------------------- **/
+html, body, #page { height: 100%; }
+body > #page {height: auto; min-height: 100%;}
+#content { padding-bottom: 218px; }
+#rodape { position: relative; height: 218px; background: url(/images/reservadehotel/fundo_rodape.gif) bottom left repeat-x; margin-top: -218px; }
+#rodape #content_rodape { margin: 0 auto; width: 824px; }
+
+  #rodape #content_rodape #localizacao { height: 34px; background: url(/images/reservadehotel/topo_localizacao.jpg) no-repeat left; }
+  #rodape #content_rodape #localizacao p { font-size: 13px; color: #ffffff; padding: 10px 0 0 15px; }
+  #rodape #content_rodape #localizacao span p { font-size: 13px; font-weight: bold; color: #ffffff; }
+
+  #rodape #content_rodape #logo_rodape { float: left; margin-top: 18px; }
+  #rodape #content_rodape #logo_rodape h1 a { display: block; width: 250px; height: 112px; background: url(/images/reservadehotel/logo_rodape.jpg) no-repeat; text-indent: -999em; overflow: hidden; }
+
+  #rodape #content_rodape #menu_rodape { width: 550px; height: 92px; display: block; float: right; }
+  
+    #rodape #content_rodape #menu_rodape ul.cima_rodape { height: 33px; margin-top: 18px; }
+    #rodape #content_rodape #menu_rodape ul.cima_rodape li { float: left; margin: 17px 0 0 10px; padding-right: 10px; border-right: 1px solid #ffffff; }
+    #rodape #content_rodape #menu_rodape ul.cima_rodape li.first { margin-left: 0px; }
+    #rodape #content_rodape #menu_rodape ul.cima_rodape li.last { border-right: none; }
+    #rodape #content_rodape #menu_rodape ul.cima_rodape li a { font-size: 12px; color: #ffffff; text-decoration: none; }
+    #rodape #content_rodape #menu_rodape ul.cima_rodape li a:hover { color: #fbcc6f; text-decoration: underline; }
+  
+    #rodape #content_rodape #menu_rodape ul.baixo_rodape { height: 41px; margin-top: 10px; background: #2e7295; }
+    #rodape #content_rodape #menu_rodape ul.baixo_rodape li { width: 20%; float: left; padding-top: 12px; text-align: center; }
+    #rodape #content_rodape #menu_rodape ul.baixo_rodape li a { font-size: 14px; color: #ffffff; text-decoration: none; font-weight: bold; }
+    #rodape #content_rodape #menu_rodape ul.baixo_rodape li a:hover { color: #fbcc6f; text-decoration: underline; }
+
+  #rodape #content_rodape #disclaimer { width: 824px; height: 35px; display: block; clear: both; border-top: 1px solid #4a8aab; }
+  #rodape #content_rodape #disclaimer p { font-size: 12px; font-weight: bold; color: #ffffff; padding: 20px 0 0 0; }
+  
+/** -------------------------     FORM BUSCA       ------------------------- **/
+
+#busca { background: #6499b5 url(/images/reservadehotel/bg_busca.jpg) top left no-repeat; }
+#busca form { margin: 0 auto; width: 824px; padding-bottom: 10px; background: url(/images/reservadehotel/bg_formbusca_bottom.gif) bottom left repeat-x; }
+#busca form fieldset { background: url(/images/reservadehotel/bg_formbusca_top.gif) top left no-repeat; }
+#busca form fieldset ol { float: left; padding: 20px 0 0 20px; }
+#busca form fieldset ol li { margin-bottom: 10px; }
+#busca form fieldset ol li.por p { float: left; margin-right: 10px; }
+#busca form fieldset ol li.por label { margin-right: 10px; } 
+#busca form fieldset ol li input#autocompletehotel,
+#busca form fieldset ol li input#autocompletecidade { width: 350px; }
+#busca form fieldset ol li.checkin label,
+#busca form fieldset ol li.checkout label { float: left; width: 65px; margin-top: 6px; }
+#busca form fieldset ol li.checkin input#retiradaini,
+#busca form fieldset ol li.checkout input#retiradafim { width: 130px; }
+#busca form fieldset ol li.checkin select#horaini,
+#busca form fieldset ol li.checkout select#horafim { width: 84px; margin-left: 10px; }
+#busca form fieldset ol li.apartamentos div { margin-bottom: 5px; }
+#busca form fieldset ol li.apartamentos div div { float: left; }
+#busca form fieldset ol li.apartamentos div div select.tipo_ap { display: block; width: 146px; }
+#busca form fieldset ol li.apartamentos div div.quantidade { margin-right: 90px; }
+#busca form fieldset ol li.apartamentos div div p { margin-bottom: 5px; }
+#busca form fieldset ol li.apartamentos p.mais { width: 350px; }
+#busca form fieldset button { margin: 42px 0 0 44px; float: left; width: 178px; height: 114px; background: url(/images/reservadehotel/bt_enviar.jpg) no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+#busca form fieldset div.enfeite { float: right; width: 177px; height: 208px; margin: -22px 40px 0 0; background: url(/images/reservadehotel/bg_formbusca_enfeite.gif) no-repeat; }
+
+
+/** -------------------------     CONTEUDO       ------------------------- **/
+
+#content { background: url(/images/reservadehotel/bg_conteudo.jpg) top left repeat-x; }
+#content div.cont { margin: 0 auto; width: 824px; padding-top: 35px; }
+
+
+/** -------------------------     HOME       ------------------------- **/
+
+#home #conteudo_esquerda { float: left; width: 419px; }
+
+  #home #conteudo_esquerda #tarifa_hora { width: 419px; height: 245px; padding-bottom: 16px; background: url(/images/reservadehotel/borda_tarifa.gif) bottom left no-repeat; }
+  #home #conteudo_esquerda #tarifa_hora div { background: url(/images/reservadehotel/fundo_tarifa.jpg) repeat-x; }
+  #home #conteudo_esquerda #tarifa_hora div h3 { font-size: 20px; color: #ffffff; padding: 9px 0 9px 10px; }
+  #home #conteudo_esquerda #tarifa_hora div ol { height: 223px; margin-left: 10px; font-size: 13px; }
+  #home #conteudo_esquerda #tarifa_hora div ol li { height: 23px; padding-top: 10px; }
+  #home #conteudo_esquerda #tarifa_hora div ol li h4 { float: left; width: 270px; color: #4c4c4c; }
+  #home #conteudo_esquerda #tarifa_hora div ol li strong { float: left; margin-right: 15px; color: #c57702; }
+  #home #conteudo_esquerda #tarifa_hora div ol li a { float: left; width: 67px; height: 22px; color: #c57702; margin-top: -3px; background: url(/images/reservadehotel/bt_reserva.jpg) no-repeat; text-indent: -999em; overflow: hidden; }
+  
+
+  #home #mais_buscados { width: 419px; /*height: 278px;*/ display: block; clear: both; margin-top: 16px; font-size: 13px; font-weight: bold; color: #878787; }
+  #home #mais_buscados h3 { width: 419px; height: 30px; display: block; font-size: 20px; color: #de8e06; border-bottom: 3px solid #cddce5; margin-bottom: 20px; }
+  #home #mais_buscados ol li { padding: 10px 0 21px; background: bottom left url(/images/reservadehotel/linha.gif) no-repeat; }
+  #home #mais_buscados ol li h4 { float: left; width: 340px; }
+  #home #mais_buscados ol li a { font-size: 13px; font-weight: bold; color: #878787; text-decoration: underline; }
+  #home #mais_buscados ol li a.detalhes { float: right; margin-right: 10px; }
+ 
+#home #conteudo_direita { float: right; width: 354px; }
+
+  #home #conteudo_direita #tarifas_especiais { width: 354px; display: block; }
+  #home #conteudo_direita #tarifas_especiais h3 { width: 354px; height: 30px; display: block; font-size: 20px; color: #063750; border-bottom: 3px solid #70a1bb; } 
+  #home #conteudo_direita #tarifas_especiais p.subtitle { font-size: 16px; color: #387ea3; font-weight: bold; padding: 17px 0 17px 0; }
+  #home #conteudo_direita #tarifas_especiais div { margin-top: 10px; }
+  #home #conteudo_direita #tarifas_especiais div p { font-size: 12px; color: #000000; margin-top: 4px; }
+  #home #conteudo_direita #tarifas_especiais div p strong { font-size: 14px; color: #000000; }
+
+  #home #conteudo_direita #central_atendimento { width: 354px; margin-top: 18px; }
+  #home #conteudo_direita #central_atendimento h3 { width: 354px; height: 30px; display: block; font-size: 20px; color: #12577a; border-bottom: 3px solid #cddce5; }
+  #home #conteudo_direita #central_atendimento p,
+  #home #conteudo_direita #central_atendimento a { font-size: 16px; color: #387ea3; font-weight: bold; text-decoration:none; }
+  #home #conteudo_direita #central_atendimento img { padding-top: 17px; }
+
+  #home #conteudo_direita #como_reservar { width: 354px; display: block; clear: both; margin-top: 18px; }
+  #home #conteudo_direita #como_reservar h3 { width: 354px; height: 30px; display: block; font-size: 20px; color: #5c92ad; border-bottom: 3px solid #cddce5; }
+  #home #conteudo_direita #como_reservar p { margin-top: 17px; font-size: 12px; color: #000000; }
+  #home #conteudo_direita #como_reservar p a { font-size: 12px; color: #000000; text-decoration: underline; font-weight: bold; padding-top: 4px; display: block; }
+  #home #conteudo_direita #como_reservar p a:hover { color: #12577a; }
+
+#home #conteudo_baixo { clear: both; padding: 30px 0; }
+#home #conteudo_baixo .box_baixo { width: 250px; display: block; float: left; padding-left: 34px; font-size: 12px; color: #000000; }
+#home #conteudo_baixo .box_baixo h3 { font-size: 16px; font-weight: bold; color: #9ea7b7; padding-bottom: 17px; }
+#home #conteudo_baixo .box_baixo strong { color: #00174f; font-size: 12px; }
+#home #conteudo_baixo .box_baixo a { font-size: 12px; color: #ff0000; text-decoration: underline; margin-top: 3px; display: block; }
+#home #conteudo_baixo .box_baixo a:hover { color: #387ea3; }
+#home #conteudo_baixo .first { padding-left: 0; }
+#home #conteudo_baixo .botao_baixo { margin-top: 10px; }
+
+
+
+#pesquisa #resultados { width: 824px; padding-bottom: 20px; font-size: 20px; color: #06364f; font-weight: bold; }
+#pesquisa #resultados span { font-size: 16px; color: #000000; }
+
+#pesquisa #titulo_filtro { width: 824px; height: 36px; background: url(/images/reservadehotel/fundo_titulo.jpg) no-repeat left; }
+#pesquisa #titulo_filtro h3 { font-size: 14px; font-weight: bold; color: #ffffff; padding: 8px 0 0 8px; }
+
+#pesquisa #filtro { padding-top: 18px; width: 824px; height: 125px; background: url(/images/reservadehotel/fundo_filtro.jpg) no-repeat; }
+
+  #pesquisa #filtro #form_filtro { width: 620px; height: 80px; float: left; padding: 27px 0 0 22px; }
+  #pesquisa #filtro #form_filtro ol li { float: left; margin-left: 10px; padding-bottom: 10px; font-size: 11px; color: #ffffff; font-weight: bold; }
+  #pesquisa #filtro #form_filtro ol li ul li { float: none; }
+  #pesquisa #filtro #botao_filtro { width: 148px; height: 49px; float: left; display: block; padding: 17px 0 0 2px; }
+
+/* ------------------------------------ INÃ�CIO BUSCA HOTEIS -------------------------------- */
+#pesquisa .hoteis { width: 824px; display: block; clear: both; border-bottom: 1px solid #d9e5ec; margin-top: 20px; }
+  
+  #pesquisa .hoteis .info_hotel ul li.apartamentos p.categoria  { padding-top: 10px; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos p.categoria a { font-size: 15px; font-weight: normal; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo { border: 2px solid #ecad3f; padding: 0 10px; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div { border-top: 1px solid #ecad3f; padding: 3px 0; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div.first { border-top: 0 none; } 
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div p.diaria { float: left; padding-left: 30px; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div p.diaria a { font-size: 12px; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div p.nome { width: 210px; float: left; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div p.nome a { font-size: 12px; font-weight: normal; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div div.precos_diarias { clear: both; border: 0 none; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div div.inativo { display: none; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div div.precos_diarias div { width: 100%; border-top: 1px solid #ECAD3F; }
+  #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div div.precos_diarias div.first { border: 0 none; }
+  
+    #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div table th,
+    #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div table td { width: 73px; border-left: 1px solid #ECAD3F; }
+    #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div table th.first,
+    #pesquisa .hoteis .info_hotel ul li.apartamentos div.aptos_tipo div table td.first { border-left: 0 none; }
+
+
+
+
+
+/**
+ * TODO: código abaixo referente a apartamento e hotel, refazer;
+ */
+#content .voltar_pagina { width: 824px; height: 20px; display: block; clear: both; margin-top: 15px; }
+#content .voltar_pagina a { font-size: 14px; font-weight: bold; color: #136089; }
+#content .voltar_pagina a:hover { color: #000000; }
+#content .interna_hoteis { width: 824px; height: 130px; display: block; clear: both; margin-top: 20px; }
+#content .interna_apartamentos { width: 824px; height: 130px; display: block; clear: both; margin-top: 20px; }
+#content .interna_hoteis_reserva { width: 824px; height: 130px; display: block; clear: both; margin-top: 20px; background: #f6f6f6; }
+
+#fotos_aba p { font-size: 12px; color: #232323; margin-bottom: 5px; margin-left: 10px; }
+#fotos_aba ul li { display: inline; float: left; margin-left: 10px; margin-top: 10px; }
+#fotos_aba ul li img { border: 1px #b9b9b9 solid; }
+
+#comentarios_aba ul.coment { border-bottom: 1px #aaaaaa solid; margin: 0; width: 786px; display: block; margin-bottom: 10px; }
+#comentarios_aba .tabdiv3 ul.coment li { margin: 0; display: block; float: left; }
+#comentarios_aba ul.coment li { display: block; padding-bottom: 8px; }
+#comentarios_aba ul.coment li h4 { font-size: 12px; color: #676767; font-style: italic; font-weight: bold; }
+#comentarios_aba ul.coment li p { font-size: 12px; color: #000000; }
+#comentarios_aba ul.coment li span { font-size: 12px; color: #626262; }
+#comentarios_aba h5 { width: 700px; height: 30px; display: block; font-size: 16px; color: #515151; font-weight: bold; margin-top: 15px; }
+.tabdiv3 { margin-top: 6px; background: #f6f6f6; border: 1px solid #dedbd1; width: 805px; padding: 17px 0 17px 17px; }
+div#comentarios_aba h5 span { font-size: 12px; color: #797979; }
+div#form_esq { width: 290px; height: 195px; display: block; float: left; }
+div#form_esq p { font-size: 12px; color: #000000; font-weight: bold; margin-top: 10px; }
+.texbox50 { border: 1px solid #b1cddb; background-color: #ffffff; font-family: Arial, Verdana, Helvetica, sans-serif; color: #6e6d6d; padding: 3px 0 0 3px; font-size: 12px; width: 275px; height: 20px; }
+div#form_dir { width: 290px; height: 195px; display: block; float: left; padding-left: 15px; }
+div#form_dir p { font-size: 12px; color: #000000; font-weight: bold; margin-top: 10px; }
+.texbox60 { border: 1px solid #b1cddb; background-color: #ffffff; font-family: Arial, Verdana, Helvetica, sans-serif; color: #6e6d6d; padding: 3px 0 0 3px; font-size: 12px; width: 275px; }
+div#voltar_pagina2 { width: 824px; height: 40px; display: block; clear: both; margin-top: 15px; }
+div#voltar_pagina2 a { font-size: 14px; font-weight: bold; color: #136089; }
+div#voltar_pagina2 a:hover { color: #000000; }
+div#voltar_pagina2 p { width: 232px; height: 40px; display: block; float: left; line-height: 35px; }
+div#voltar_pagina2 p.indique { width: 270px; height: 40px; display: block; float: right; background: url(/images/reservadehotel/email.jpg) no-repeat left; }
+div#voltar_pagina2 p.indique a { padding-left: 50px; line-height: 35px; }
+
+/**
+ *
+ */
+ 
+.top {
+    background-image: url(/images/reservadehotel/top2.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+    font-family: Arial, Georgia, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+div#content_login {
+    width: 824px;
+    height: 400px;
+    display: block;
+    clear: both;
+}
+
+div#content_login h2 {
+    font-size: 16px;
+    color: #c2d5df;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+div#barra_processo {
+    width: 824px;
+    height: 56px;
+    display: block;
+    clear: both;
+    padding-top: 21px;
+}
+
+div#login_senha {
+    width: 635px;
+    display: block;
+    margin-top: 28px;
+    padding-left: 40px;
+}
+
+div#login {
+    width: 361px;
+    height: 294px;
+    display: block;
+    float: left;
+    background: url(/images/reservadehotel/fundo_login.png) no-repeat right;
+}
+
+div#login h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+div#login p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 10px;
+} .box_login {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #000000;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 290px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+div#login a {
+    font-size: 12px;
+    color: #073851;
+    text-decoration: underline;
+}
+
+div#login a:hover {
+    color: #dc8d06;
+}
+
+div#fazer_cadastro {
+    width: 226px;
+    height: 294px;
+    display: block;
+    float: left;
+    padding-left: 48px;
+}
+
+div#fazer_cadastro img {
+    display: block;
+    float: left;
+    padding-left: 48px;
+    padding-bottom: 90px;
+/*    margin-top: 120px;*/
+}
+
+div#fazer_cadastro h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-left: 13px;
+}
+
+div#fazer_cadastro p {
+    font-size: 14px;
+    color: #888888;
+    padding-bottom: 30px;
+    padding-left: 13px;
+}
+
+/* ------------------------------------ FIM LOGIN -------------------------------- */
+/* ------------------------------------ INÃ�CIO CADASTRO -------------------------------- */
+div#content_cadastro {
+    width: 224px;
+    display: block;
+    clear: both;
+}
+
+div#cadastro_cliente {
+    width: 635px;
+	  height: auto;
+    display: block;
+    padding-left: 150px;
+
+}
+
+#cadastro_cliente label{
+     font-weight: bold;
+ }
+
+div#cadastro_cliente h3 {
+    font-weight: bold;
+    width: 419px;
+    height: 30px;
+    display: block;
+    font-size: 16px;
+    color: #FFFFFF;
+   /** background: url(/images/reservadehotel/fundo_abas.gif) repeat-x; */   
+}
+
+div#cadastro_cliente fieldset legend{
+    font-weight: bold;
+    width: 419px;
+  /*  height: 30px; */
+    display: block; 
+    font-size: 16px;
+    color: #de8e06;
+    border-bottom: 3px solid #cddce5;
+}
+
+div#content_cadastro h2 {
+    font-size: 16px;
+    color: #c2d5df;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+div#cadastro_botao {
+    width: 126px;
+    height: 294px;
+    display: block;
+    float: left;
+    padding-left: 48px;
+    margin-top:230px;
+}
+
+div#content_cadastro h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-left: 13px;
+}
+
+div#content_cadastro p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-left: 13px;
+}
+
+div#geral_processo {
+    width: 824px;
+    display: block;
+    clear: both;
+    background: #f6f5f5;
+    margin-top: 21px;
+}
+
+div#form_cadastro {
+    width: 622px;
+    display: block;
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+div#form_cadastro p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #c80c0c;
+    padding-bottom: 10px;
+}
+.box_cadastro {
+    border: 1px solid #b1cddb;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #000000;
+    padding: 3px 0 0 3px;
+    font-size: 12px;
+    width: 190px;
+    height: 20px;
+    margin-top: 10px;
+}
+/* ------------------------------------ FIM CADASTRO -------------------------------- */
+/* ------------------------------------ INÃ�CIO ESQUECI MINHA SENHA -------------------------------- */
+div#form_esqueci {
+    width: 824px;
+    display: block;
+    margin-top: 21px;
+}
+
+div#form_esqueci p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+/* ------------------------------------ FIM ESQUECI MINHA SENHA -------------------------------- */
+/* ------------------------------------ INÃ�CIO DADOS DA RESERVA -------------------------------- */
+ .dados_reserva {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+div#dados_hotel {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    border-bottom: solid 1px #c7c6c6;
+}
+
+#tabela_apartamentos
+ {
+   border-collapse:collapse;
+
+
+ }
+#tabela_apartamentos tr.ok 
+{
+     background-color:green;
+   /* border:1px solid green;
+    border-color:green;*/
+}
+
+tr.alerta
+{
+     background-color:orange;
+     border-color:orange;
+}
+
+tr.desababled
+{
+     background-color:gray;
+     border-color:gray;
+}
+
+
+div#dados_apartamentos {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+}
+
+div.apartamentos_hospedes {
+    width: 250px;
+    float: left;
+    margin: 0 0 10px 0;
+}
+
+div#apartamentos_hospedes ul li span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+}
+
+div.apartamentos_hospedes_separador
+ {
+   width:500px;
+   border-bottom: solid 1px #c7c6c6;
+   float:left;
+}
+
+div#dados_hotel ul li {
+    margin-top: 8px;
+}
+
+div#dados_hotel ul li.last {
+    padding-bottom: 20px;
+}
+
+div#dados_hotel ul li strong {
+    font-size: 15px;
+    color: #000000;
+}
+
+div#dados_hotel ul li span, .apartamentos_hospedes ul li span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+}
+
+div#escolha {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    border-bottom: solid 1px #c7c6c6;
+    clear: both;
+}
+
+div#escolha ul li.last {
+    padding-bottom: 20px;
+}
+
+div#valor_total {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    border-bottom: solid 1px #c7c6c6;
+}
+
+div#valor_total p span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #294560;
+}
+
+div#politicas {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#dados_politica {
+    width: 519px;
+    height: 250px;
+    background: #d7e2ea;
+    display: block;
+    padding-top: 20px;
+    overflow: auto;
+    float: left;
+}
+
+div#dados_politica ul li {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+div#dados_politica ul li.first {
+    margin: 0;
+}
+
+div#dados_politica ul li.last {
+    padding-bottom: 10px;
+}
+
+div#politicas input {
+    margin-top: 20px;
+}
+
+div#politicas input.box {
+    margin-top: 10px;
+}
+
+div#politicas span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b50a0a;
+}
+
+/* ------------------------------------ FIM DADOS DA RESERVA -------------------------------- */
+/* ------------------------------------ INÃ�CIO PAGAMENTO -------------------------------- */
+div#dados_pagamento {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+    border-bottom: solid 1px #c7c6c6;
+}
+
+div#dados_pagamento ul li {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+    margin-top: 5px;
+}
+
+div#dados_pagamento ul li.last {
+    padding-bottom: 20px;
+}
+
+div#condicoes_gerais {
+    width: 519px;
+    display: block;
+    margin-left: 160px;
+    padding-top: 20px;
+}
+
+div#condicoes_gerais span.tex {
+    font-size: 12px;
+    color: #223a51;
+    display: block;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+div#condicoes_gerais span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b50a0a;
+}
+
+div#condicoes_gerais input {
+    margin-top: 20px;
+}
+
+div#condicoes_gerais input.box {
+    margin-top: 10px;
+}
+
+/* ------------------------------------ FIM PAGAMENTO -------------------------------- */
+/* ------------------------------------ INÃ�CIO FINALIZAÃ‡ÃƒO DA RESERVA -------------------------------- */
+div#final_reserva {
+    width: 737px;
+    height: 100px;
+    display: block;
+    border-bottom: solid 1px #c7c6c6;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+div#final_reserva p strong {
+    font-size: 18px;
+    font-weight: bold;
+    color: #223a51;
+    display: block;
+    padding-bottom: 20px;
+}
+
+div#dados_finais {
+    width: 426px;
+    display: block;
+    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+div#dados_finais ul li {
+    margin-top: 8px;
+}
+
+div#dados_finais ul li span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a6086;
+}
+
+div#dados_finais ul li.total {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9c1314;
+}
+
+div#dados_finais ul li.last {
+    padding-bottom: 50px;
+}
+
+div#publicidade_final {
+    width: 315px;
+    display: block;
+    float: left;
+    padding-top: 20px;
+}
+
+div#publicidade_final span {
+    font-size: 11px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------->>> jtip <<<---------------------------------------------------------------*/ #JT_arrow_left {
+    background-image: url(/images/reservadehotel/arrow_left.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: absolute;
+    z-index: 101;
+    left: -12px;
+    height: 23px;
+    width: 11px;
+    margin-top: -7px;
+} #JT_arrow_right {
+    background-image: url(/images/reservadehotel/arrow_right.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: absolute;
+    z-index: 101;
+    height: 23px;
+    width: 11px;
+    margin-top: -7px;
+} #JT {
+    position: absolute;
+    z-index: 100;
+    border: 1px solid #666666;
+    background-color: #fff;
+    margin-left: -6px;
+    margin-top: 5px;
+    /*Transparency*/
+    filter: alpha( opacity = 80);
+
+opacity:
+    0.8;
+
+-moz-opacity:
+    0.8
+}
+
+label.error {
+    border: 1px solid #666666;
+    background-color: #fff;
+    /*Transparency*/
+    filter: alpha( opacity = 80);
+
+
+opacity:
+    0.8;
+
+-moz-opacity:
+    0.8;
+
+width:
+    11px;
+
+color:red;
+
+font-size:
+    11px;
+
+padding:
+    0 4px 4px 4px;
+
+margin-left:
+    4px;
+
+visibility:hidden;
+} #JT_copy {
+    padding: 0 4px 4px 4px;
+    color: #333333;
+    font-size: 11px;
+    margin-top: -10px;
+} .JT_loader {
+    background-image: url(/images/reservadehotel/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 12px;
+} #JT_close_left {
+    background-color: #CCCCCC;
+    text-align: left;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-weight: bold;
+} #JT_close_right {
+    background-color: #CCCCCC;
+    text-align: left;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-weight: bold;
+} #JT_copy p {
+    margin: 0;
+} #JT_copy img {
+    padding: 1px;
+    border: 1px solid #CCCCCC;
+} .jTip {
+} 
+
+
+
+
+button#confirma_atual { float: right; margin: 20px 0; width: 219px; height: 139px; background: url(/images/reservadehotel/confirmar_seta_laranja.png) center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+button#prosseguir_atual { float: right; margin: 20px 0; width: 219px; height: 139px; background: url(/images/reservadehotel/prosseguir_seta_laranja.png) center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+button#mais-reserva_atual { float: left; margin: 20px 0; width: 219px; height: 139px; background: url(/images/reservadehotel/mais-reservas_seta_azul.png) center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+
+
+
+#msg_reserva { margin-bottom: 70px; padding-top: 20px; background: url(/images/reservadehotel/reserva_confirmada_top.png) top center no-repeat; }
+#msg_reserva .subcont { position: relative; padding-bottom: 20px; background: url(/images/reservadehotel/reserva_confirmada_bot.png) bottom center no-repeat; }
+#msg_reserva .subcont #msg_ok { padding: 0 20px 0 77px; background: url(/images/reservadehotel/reserva_msg_ok.png) 12px center no-repeat; }
+#msg_reserva .subcont #msg_ok h1 { margin-bottom: 20px; font-size: 28px; color: #ffffff; }
+#msg_reserva .subcont #msg_ok p { margin-bottom: 10px; font-size: 12px; font-weight: bold; color: #ffffff; }
+#msg_reserva .subcont #msg_ok p a { color: #ffffff; }
+
+#qst_satisfacao h3 { margin-bottom: 15px; padding-bottom: 5px; border-bottom: 1px solid #cddce5; font-size: 14px; color: #387ea3; }
+#qst_satisfacao form { font-size: 12px; font-weight: bold; color: #387ea3; }
+#qst_satisfacao form ul { margin-bottom: 20px; }
+#qst_satisfacao form ul li { float: left; margin-right: 25px; }
+#qst_satisfacao form ul li label { display: block; height: 22px; line-height: 22px; background: 20px center no-repeat; }
+#qst_satisfacao form ul li.otimo label { background-image: url(/images/reservadehotel/smile_01.gif); }
+#qst_satisfacao form ul li.bom label { background-image: url(/images/reservadehotel/smile_02.gif); }
+#qst_satisfacao form ul li.rasoavel label { background-image: url(/images/reservadehotel/smile_03.gif); }
+#qst_satisfacao form ul li.ruim label { background-image: url(/images/reservadehotel/smile_04.gif); }
+#qst_satisfacao form ul li input { margin-right: 35px; vertical-align: middle; }
+#qst_satisfacao form p label { display: block; margin-bottom: 5px; }
+#qst_satisfacao form p textarea { width: 450px; height: 95px; margin-bottom: 20px; border: 1px solid #0f577d; background-color: #f3f3fa; }
+#qst_satisfacao form p button { width: 98px; height: 37px; margin: 0 0 50px 354px; background: url(/images/reservadehotel/btn_enviar.png) center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; } 
+
+
+
+
+
+#menu_cadastro_cliente { float: left; width: 114px; height: 130px; padding: 29px 18px 22px 24px; overflow: hidden; background: url(/images/reservadehotel/menu_cliente.png) top left no-repeat; }
+#menu_cadastro_cliente li { margin-bottom: 20px; }
+#menu_cadastro_cliente li a { color: #ffffff; font-weight: bold; }
+
+
+/* RESERVA ATUAL E DETALHES DE FUTURAS E PASSADAS */
+#cliente_reserva { float: left; width: 648px; margin-left: 20px; }
+
+#cliente_reserva ul.reservas .item { margin-bottom: 20px; border-bottom: 3px solid #cddce5; }
+#cliente_reserva ul.reservas .item a.excluir { display: block; width: 24px; height: 24px; margin-bottom: 5px; background: url(/images/reservadehotel/001_05.png) center no-repeat; text-indent: -999em; overflow: hidden; }
+
+#cliente_reserva ul.reservas .item .info { float: right; width: 465px; }
+#cliente_reserva ul.reservas .item .info h4 { font-size: 16px; }
+#cliente_reserva ul.reservas .item .info h4 a { color: #000000; text-decoration: none; }
+#cliente_reserva ul.reservas .item .info h4 a:hover { text-decoration: underline; }
+#cliente_reserva ul.reservas .item .info h4 strong { font-size: 12px; color: #136089; }
+#cliente_reserva ul.reservas .item .info .endereco { margin-bottom: 20px; font-size: 12px; }
+#cliente_reserva ul.reservas .item .info .endereco strong { color: #136089; }
+#cliente_reserva ul.reservas .item .info .mapa { float: left; }
+#cliente_reserva ul.reservas .item .info .mapa a { display: block; width: 87px; height: 34px; background: url(/images/reservadehotel/bt_mapa.gif) no-repeat; text-indent: -999em; overflow: hidden; }
+#cliente_reserva ul.reservas .item .info .preco { float: right; font-size: 12px; color: #136089; font-weight: bold; }
+#cliente_reserva ul.reservas .item .info .preco strong { font-size: 29px; color: #073953; }
+#cliente_reserva ul.reservas .item .info .preco span { font-size: 16px; color: #073953; }
+
+#cliente_reserva ul.reservas .item .foto { float: left; width: 130px; height: 130px; margin-left: 30px; }
+#cliente_reserva ul.reservas .item .foto img { border: 1px solid #5d96b5; }
+#cliente_reserva ul.reservas .item .foto .comment { width: 130px; height: 23px; display: block; background: url(/images/reservadehotel/fundo_coment.gif) no-repeat left; }
+#cliente_reserva ul.reservas .item .foto .comment a { font-size: 11px; color: #686868; font-weight: bold; padding-left: 35px; line-height: 25px; }
+#cliente_reserva ul.reservas .item .foto .comment a:hover { color: #000000; }
+
+#cliente_reserva ul.reservas .item .apartamentos { margin: 0 0 20px 30px; }
+#cliente_reserva ul.reservas .item .apartamentos a { font-size: 12px; color: #000000; text-decoration: none; }
+#cliente_reserva ul.reservas .item .apartamentos a:hover { color: #136089; text-decoration: underline; }
+#cliente_reserva ul.reservas .item .apartamentos .categoria  { padding-top: 10px; }
+#cliente_reserva ul.reservas .item .apartamentos .categoria a { font-size: 15px; font-weight: normal; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo { border: 2px solid #ecad3f; padding: 0 10px; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div { border-top: 1px solid #ecad3f; padding: 3px 0; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div.first { border-top: 0 none; } 
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div p.diaria { float: left; padding-left: 30px; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div p.diaria a { font-size: 12px; font-weight: bold; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div p.quantidade { float: left; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div p.nome { width: 230px; float: left; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div p.nome a { font-size: 12px; font-weight: normal; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div div.precos_diarias { clear: both; border: 0 none; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div div.inativo { display: none; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div div.precos_diarias div { width: 100%; border-top: 1px solid #ECAD3F; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div div.precos_diarias div.first { border: 0 none; }
+      
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div table th,
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div table td { width: 83px; border-left: 1px solid #ECAD3F; }
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div table th.first,
+#cliente_reserva ul.reservas .item .apartamentos .aptos_tipo div table td.first { border-left: 0 none; }
+
+#cliente_reserva p.total { margin-bottom: 20px; border-bottom: 3px solid #cddce5; }
+#cliente_reserva p.total span { display: inline-block; width: 50%; font-size: 29px; font-weight: bold; color: #073953; }
+#cliente_reserva p.total strong { display: inline-block; width: 50%; font-size: 40px; color: #073953; text-align: right; }
+#cliente_reserva p.total strong span { display: inline; font-size: 18px; }
+
+/* RESERVAS FUTURAS E PASSADAS */
+#cliente_reservas { float: left; width: 648px; margin-left: 20px; }
+#cliente_reservas h1 { margin-bottom: 40px; font-size: 25px; color: #ffffff; }
+#cliente_reservas ul .item { margin-bottom: 20px; border-bottom: 3px solid #cddce5; }
+#cliente_reservas ul li.item h3 { margin-bottom: 15px; font-size: 14px; color: #073953; }
+#cliente_reservas ul li.item h3 span { font-size: 18px; }
+#cliente_reservas ul li.item table { width: 510px; margin-bottom: 30px; border: 2px solid #ecad3f; font-size: 12px; background: #ffffff; }
+#cliente_reservas ul li.item table .hotel { padding-left: 15px; }
+#cliente_reservas ul li.item table .checkin,
+#cliente_reservas ul li.item table .checkout { width: 65px; padding-right: 25px; }
+#cliente_reservas ul li.item table thead tr th { padding-top: 7px; text-align: left; }
+#cliente_reservas ul li.item table tbody tr { background: #ffffff url(/images/reservadehotel/reservas_tabelahotel_bg.png) top left no-repeat; }
+#cliente_reservas ul li.item table tbody tr.primeiro { background: none; }
+#cliente_reservas ul li.item table tbody tr td { padding-top: 13px; padding-bottom: 5px; }
+#cliente_reservas ul li.item div { width: 510px; margin-bottom: 35px; }
+#cliente_reservas ul li.item div dl { float: left; width: 274px; font-size: 12px; line-height: 15px; color: #073953; }
+#cliente_reservas ul li.item div dl dt { clear: left; float: left; width: 50%; font-weight: bold; }
+#cliente_reservas ul li.item div dl dd { float: left; width: 50%; }
+#cliente_reservas ul li.item div p.valor { float: right; }
+#cliente_reservas ul li.item div p.valor span { display: block; font-size: 12px; font-weight: bold; }
+#cliente_reservas ul li.item div p.valor strong { font-size: 29px; }
+#cliente_reservas ul li.item div p.valor strong span { display: inline; font-size: 16px; }
+#cliente_reservas ul li.item p.detalhes a { display: block; width: 98px; height: 30px; margin: 0 0 20px 415px; background: url(/images/reservadehotel/btn_mais_detalhes.png) center no-repeat; text-indent: -999em; overflow: hidden; }
+
+#lista_hoteis h1 { margin-bottom: 20px; padding-bottom: 5px; border-bottom: 2px solid #70a1bb; font-size: 20px; color: #063750; }
+
+#lista_hoteis form { width: 643px; height: 160px; margin: 0 auto 75px; }
+#lista_hoteis form h3 { width: 180px; height: 36px; padding-left: 20px; line-height: 36px; background: url(/images/reservadehotel/lista_hoteis_form_tit.png) top left no-repeat; font-size: 14px; color: #ffffff; }
+#lista_hoteis form fieldset { width: 583px; height: 124px; padding: 35px 30px 0; background: url(/images/reservadehotel/lista_hoteis_form_bg.png) top left no-repeat; }
+#lista_hoteis form fieldset p { float: left; margin-top: 12px; }
+#lista_hoteis form fieldset p label { margin-right: 15px; font-size: 11px; font-weight: bold; color: #ffffff; }
+#lista_hoteis form fieldset p input { width: 350px; vertical-align: middle; }
+#lista_hoteis form fieldset button { float: right; width: 148px; height: 49px; background: url(/images/reservadehotel/bt_filtro.jpg) center no-repeat; text-indent: -999em; overflow: hidden; cursor: pointer; }
+
+#lista_hoteis ul.hoteis .item { margin-bottom: 20px; border-bottom: 3px solid #cddce5; }
+#lista_hoteis ul.hoteis .item a.excluir { display: block; width: 24px; height: 24px; margin-bottom: 5px; background: url(/images/reservadehotel/001_05.png) center no-repeat; text-indent: -999em; overflow: hidden; }
+
+#lista_hoteis ul.hoteis .item .info { float: right; width: 640px; }
+#lista_hoteis ul.hoteis .item .info h4 { font-size: 16px; }
+#lista_hoteis ul.hoteis .item .info h4 a { color: #000000; text-decoration: none; }
+#lista_hoteis ul.hoteis .item .info h4 a:hover { text-decoration: underline; }
+#lista_hoteis ul.hoteis .item .info h4 strong { font-size: 12px; color: #136089; }
+#lista_hoteis ul.hoteis .item .info .endereco { margin-bottom: 20px; font-size: 12px; }
+#lista_hoteis ul.hoteis .item .info .endereco strong { color: #136089; }
+#lista_hoteis ul.hoteis .item .info .mapa { float: left; }
+#lista_hoteis ul.hoteis .item .info .mapa a { display: block; width: 87px; height: 34px; background: url(/images/reservadehotel/bt_mapa.gif) no-repeat; text-indent: -999em; overflow: hidden; }
+
+#lista_hoteis ul.hoteis .item .foto { float: left; width: 130px; height: 130px; margin-left: 30px; }
+#lista_hoteis ul.hoteis .item .foto img { border: 1px solid #5d96b5; }
+#lista_hoteis ul.hoteis .item .foto .comment { width: 130px; height: 23px; display: block; background: url(/images/reservadehotel/fundo_coment.gif) no-repeat left; }
+#lista_hoteis ul.hoteis .item .foto .comment a { font-size: 11px; color: #686868; font-weight: bold; padding-left: 35px; line-height: 25px; }
+#lista_hoteis ul.hoteis .item .foto .comment a:hover { color: #000000; }
+
+
+#cidades_atendidas h1 { margin-bottom: 20px; padding-bottom: 5px; border-bottom: 2px solid #70a1bb; font-size: 20px; color: #063750; }
+#cidades_atendidas #lista_estados h3 { margin-bottom: 15px; font-size: 14px; }
+#cidades_atendidas #lista_estados .item.estado { margin-bottom: 35px; }
+#cidades_atendidas #lista_estados .item.estado .lista_cidades { float: left; width: 33%; margin: 0 auto; }
+#cidades_atendidas #lista_estados .item.estado .lista_cidades .item.cidade { margin-left: 15px; line-height: 30px; list-style: disc outside; }
+#cidades_atendidas #lista_estados .item.estado .lista_cidades .item.cidade a { font-size: 11px; color: #000000; }
+
+
+
+#sac h3 { margin-bottom: 20px; padding-bottom: 5px; border-bottom: 2px solid #70a1bb; font-size: 20px; color: #063750; } 
+
+#sac .esquerda { float: left; width: 434px; height: 370px; margin-bottom: 40px; background: #ecedf1; }
+#sac .esquerda #telefone_cidade h1 { height: 43px; padding: 0 20px; background: url(/images/reservadehotel/tit_bg_degrade_azul.png) top left repeat-x; line-height: 43px; font-size: 20px; color: #ffffff; }
+#sac .esquerda #telefone_cidade fieldset { padding: 25px 20px 0; font-size: 12px; font-weight: bold; }
+#sac .esquerda #telefone_cidade fieldset p.escolha { margin-bottom: 10px; }
+#sac .esquerda #telefone_cidade fieldset p.escolha label { margin-right: 20px; }
+#sac .esquerda #telefone_cidade fieldset p.escolha input { vertical-align: middle; width: 260px; }
+#sac .esquerda #telefone_cidade fieldset .result { padding: 20px; background: #e0e7ed; }
+#sac .esquerda #telefone_cidade fieldset .result span { display: block; }
+#sac .esquerda #telefone_cidade fieldset .result strong { display: block; font-size: 18px; color: #faaf30; }
+#sac .esquerda #contato_chat { padding: 40px 20px 0; }
+#sac .esquerda #contato_chat h4 { margin-bottom: 20px; font-size: 20px; color: #0f5174; }
+#sac .esquerda #contato_chat a { font-weight: bold; color: #000000; }
+#sac .direita { float: right; }

@@ -1,0 +1,137 @@
+.info_padrao:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
+}
+.ui-wrapper {
+    border: 1px solid #50A029;
+}
+.ui-wrapper input, .ui-wrapper textarea {
+    border: 0;
+}
+
+ul.ui-accordion-container {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+ul.ui-accordion-container li {
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+}
+.tabela_padrao{
+    margin-top: 4px;
+}
+ul.ui-accordion-container li a.ui-accordion-link {
+    display: block;
+    padding-left: 5px;
+    margin-right: 3px;
+    height: 28px;
+    background: #45aaee;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 28px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+ul.ui-accordion-container li a.ui-accordion-link:hover {
+    background: #3587bf;
+    text-decoration: underline;
+    color: #ffffff;
+}
+ul.ui-accordion-container li a.ui-accordion-link2 {
+    display: block;
+    padding-left: 5px;
+    margin-right: 3px;
+    height: 28px;
+    background: #80BFFF;
+    color: #069;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 28px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+ul.ui-accordion-container li a.ui-accordion-link2:hover {
+    background: #3587bf;
+    text-decoration: underline;
+    color: #FFF;
+}
+
+    ul.ui-accordion-container li a.ui-accordion-link_padrao {
+        display: block;
+        padding-left: 5px;
+        margin-right: 3px;
+        height: 40px;
+        background: #ffffff;
+        color: #494949;
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 28px;
+        margin-top: 5px;
+        cursor: pointer;
+        border-bottom: dashed 1px #0f69a6;
+        /* border-top: dashed 1px #0f69a6; */
+    }
+        ul.ui-accordion-container li a.ui-accordion-link_padrao:hover{
+            background: #eeeeee;
+        }
+ul.ui-accordion-container li a.ui-accordion-link_claro {
+    display: block;
+    padding-left: 5px;
+    margin-right: 3px;
+    height: 28px;
+    background: #63baf5;
+    color: #005e9e;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 28px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+ul.ui-accordion-container li a.ui-accordion-link_claro:hover {
+    background: #3587bf;
+    text-decoration: underline;
+    color: #ffffff;
+}
+        
+        
+    .info_padrao{
+        display: block;
+        width: 589px;
+        margin-top: 10px;
+    }
+        .carro_left{
+            float: left;
+            border: solid 1px #e1e1e1;
+            margin-left: 9px;
+        }
+            .info_padrao ul.info{
+                display: block;
+                float: left;
+                width: 295px;
+                margin-left: 10px;
+                line-height: 22px;
+                margin-bottom: 10px;
+            }
+                .info_padrao a.reserva_left{
+                    float: right;
+                    margin-right: 0px;
+                    margin-top: 80px;
+                }
+    .tabela_reserva{
+        display: block;
+        clear: both;
+		text-align:center;
+        margin-left: 8px;
+        font-weight: bold;
+        color: #0f69a6;
+    }
